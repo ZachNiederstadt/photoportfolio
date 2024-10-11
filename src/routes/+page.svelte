@@ -4,12 +4,15 @@
 </script>
 
 <svelte:head>
-  <title>Leo Hanney</title>
+  <title>Zach Niederstadt</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </svelte:head>
 
-<div class="absolute inset-0 bg-gradient-to-r from-transparent via-green-400 to-green-950 bg-[length:1200%_1200%] animate-gradient-animate z-[-1]" transition:fade={{ duration: 250 }}></div>
+<div
+  class="absolute inset-0 bg-gradient-to-r from-transparent via-green-400 to-green-950 bg-[length:1200%_1200%] animate-gradient-animate z-[-1]"
+  transition:fade={{ duration: 250 }}
+></div>
 
 <div
   class="flex items-center justify-center min-h-screen px-4 py-12 bg-black bg-opacity-50"
@@ -50,8 +53,10 @@
         class="text-green-400 hover:underline">Github</a
       >
       or
-      <a href="https://github.com/volar-is" class="text-green-400 hover:underline">Volaris Github</a> for
-      the latest updates.
+      <a
+        href="https://github.com/volar-is"
+        class="text-green-400 hover:underline">Volaris Github</a
+      > for the latest updates.
     </p>
   </div>
 </div>
