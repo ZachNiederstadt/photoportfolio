@@ -123,7 +123,7 @@
                         <img
                             src={image}
                             alt={`Image ${index + 1}`}
-                            class="w-full h-auto cursor-pointer"
+                            class="w-full h-auto cursor-pointer shadow-sm rounded-lg"
                             on:click={() => toggleFullScreen(image)}
                         />
                     </div>

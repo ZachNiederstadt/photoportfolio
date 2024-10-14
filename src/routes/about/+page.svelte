@@ -48,17 +48,47 @@
 						class="w-40 h-40 rounded-full object-cover mx-auto mb-4 shadow-lg"
 					/>
 				</div>
-				<h2 class="text-3xl font-bold text-gray-200 mb-4">About Me</h2>
-				<p class="text-gray-200 text-lg leading-relaxed mb-4">
-					Hello! I'm Zach Niederstadt,
+				<caption
+					class="flex justify-center text-white text-xs text-stone-500
+					 leading-relaxed"
+					>Me (right) with the Gran Turismo franchise creator, Kazunori Yamauchi</caption
+				>
+				<h2 class="text-3xl font-bold text-gray-200 mb-4">
+					Hi! I'm Zach Niederstadt,
+				</h2>
+				<p class="text-gray-200 text-lg leading-relaxed mb-4"></p>
+				<p class="text-gray-200 text-sm leading-relaxed mb-4">
+					I'm someone who's loved photogrphy my whoe life, and has recently
+					starteed to learn how to use a digital camera and mess with capture
+					settings manually as well as how to edit and color grade using Adobe
+					Lightroom. I really enjoy the challenge of capturing motorsports at
+					high speeds, and the challenge of trying to make a great background
+					that's not overpowering the the subject. I also enjoy the challenge
+					that arises of trying to make the subject really pop without
+					seperating it from the background and making it feel digitally
+					created/edited.
 				</p>
-				<p class="text-gray-200 text-lg leading-relaxed mb-4">...</p>
-				<p class="text-gray-200 text-lg leading-relaxed mb-4">...</p>
-				<p class="text-gray-200 text-lg leading-relaxed mb-4">
-					Besides photography...
+				<p class="text-gray-200 text-sm leading-relaxed mb-4">
+					I also hope to use photography and Psychology together to help remind
+					people you can find interesting perspectives in the most mundane
+					areas. As being a Psychology graduate, I hope to find as many aspects
+					of life I can to help ground people into healthier mindsets and
+					persepectives of life. And I think in a chaotic world of hyper
+					stimulations, the importance of photography to be something where you
+					slow down, and think about about a single moment in time for a bit is
+					extremely healthy. Not to mention, if you can take average places in
+					the world, and guide your creativity to find the beauty in the dull,
+					or the calm in the chaos, it can help prepare you to take on those
+					challenges in the mental health of your life too.
 				</p>
-				<p class="text-gray-200 text-lg leading-relaxed">
-					Thank you for visiting my website :D
+				<p class="text-gray-200 text-sm leading-relaxed mb-4">
+					Besides photography and Psychology, I'm just a huge sports fan in
+					general. Especially when you're talking about actually getting out
+					there and playing. I'll play almost any sport if you ask. I also
+					played a year of college baseball and was a part of a Porsche Esports
+					challenge event with Gran Turismo 7 (from the picture above with the
+					creator). I also just love nature and expoloring this world we call
+					home as well.
 				</p>
 			</div>
 			<br />
