@@ -45,7 +45,7 @@
 					/>
 				</div>
 				<caption
-					class="flex justify-center text-xs text-stone-300 leading-relaxed pb-3"
+					class="flex justify-center text-xs text-stone-200 leading-relaxed pb-3"
 				>
 					Me (right) with the Gran Turismo franchise creator, Kazunori Yamauchi</caption
 				>
