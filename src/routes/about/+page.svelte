@@ -92,7 +92,7 @@
 			<br />
 		</div>
 	</header>
-	<p class="text-white text-center py-3" style="margin-top:-3rem pt-2">
+	<p class="text-white text-center py-3" style="margin-top:-3rem">
 		&copy; {year} Zach Niederstadt. All rights reserved.
 	</p>
 </main>
