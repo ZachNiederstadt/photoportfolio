@@ -52,10 +52,10 @@
   >
     <div class="container mx-auto text-center">
       <h1 class="text-5xl font-bold text-white">Zach Niederstadt</h1>
-      <p class="text-xl text-white mt-4">Each frame tells a unique story.</p>
+      <p class="text-xl text-white mt-4">Capturing life as it flies by.</p>
       <br />
       <a
-        class="btn btn-primary btn-lg mt-4 px-8 py-2 text-white font-bold rounded-full bg-gray-700 hover:bg-gray-800 transition duration-300 ease-in-out"
+        class="btn btn-primary btn-lg mt-4 px-8 py-2 text-white font-bold rounded-full bg-stone-700 hover:bg-gray-800 transition duration-300 ease-in-out"
         href="/portfolio"
       >
         Explore Portfolio

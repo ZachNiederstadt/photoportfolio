@@ -83,7 +83,7 @@
 <svelte:head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weston-super-mare - Zach Niederstadt</title>
+    <title>COTA GT Challenge 23 - Zach Niederstadt</title>
     <meta property="og:title" content="Mendip Ski - Zach Niederstadt" />
     <meta property="og:description" content="2023 Season" />
     <meta property="og:image" content="/images/_DSC2618.avif" />
@@ -106,8 +106,12 @@
 
     <section id="portfolio" class="py-5">
         <div class="container mx-auto mt-20 text-center">
-            <h1 class="text-5xl font-bold text-white mb-4">Mendip Ski</h1>
-            <p class="text-lg font-bold text-white mb-8">2023 Season</p>
+            <h1 class="text-5xl font-bold text-white mb-4">
+                GT Challenge COTA 2023
+            </h1>
+            <p class="text-lg font-bold text-white mb-8">
+                My trip to see the GT Challenge America series
+            </p>
             <div
                 class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
             >

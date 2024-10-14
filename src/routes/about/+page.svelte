@@ -39,7 +39,7 @@
 		<div class="container mx-auto text-center">
 			<br />
 			<div
-				class="bg-white bg-opacity-90 rounded-lg p-8 shadow-md max-w-3xl mx-auto"
+				class="bg-stone-900 bg-opacity-90 rounded-lg p-8 shadow-md max-w-3xl mx-auto"
 			>
 				<div class="flex justify-center">
 					<img
@@ -48,16 +48,16 @@
 						class="w-40 h-40 rounded-full object-cover mx-auto mb-4 shadow-lg"
 					/>
 				</div>
-				<h2 class="text-3xl font-bold text-gray-800 mb-4">About Me</h2>
-				<p class="text-gray-700 text-lg leading-relaxed mb-4">
+				<h2 class="text-3xl font-bold text-gray-200 mb-4">About Me</h2>
+				<p class="text-gray-200 text-lg leading-relaxed mb-4">
 					Hello! I'm Zach Niederstadt,
 				</p>
-				<p class="text-gray-700 text-lg leading-relaxed mb-4">...</p>
-				<p class="text-gray-700 text-lg leading-relaxed mb-4">...</p>
-				<p class="text-gray-700 text-lg leading-relaxed mb-4">
+				<p class="text-gray-200 text-lg leading-relaxed mb-4">...</p>
+				<p class="text-gray-200 text-lg leading-relaxed mb-4">...</p>
+				<p class="text-gray-200 text-lg leading-relaxed mb-4">
 					Besides photography...
 				</p>
-				<p class="text-gray-700 text-lg leading-relaxed">
+				<p class="text-gray-200 text-lg leading-relaxed">
 					Thank you for visiting my website :D
 				</p>
 			</div>
