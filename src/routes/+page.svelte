@@ -10,7 +10,7 @@
 </svelte:head>
 
 <div
-  class="absolute inset-0 bg-gradient-to-r from-transparent via-green-400 to-green-950 bg-[length:1200%_1200%] animate-gradient-animate z-[-1]"
+  class="absolute inset-0 bg-gradient-to-r from-transparent via-blue-400 to-blue-950 bg-[length:1200%_1200%] animate-gradient-animate z-[-1]"
   transition:fade={{ duration: 250 }}
 ></div>
 
@@ -19,45 +19,41 @@
   transition:fade={{ duration: 250 }}
 >
   <div class="text-center max-w-3xl w-full">
-    <h1 class="text-4xl sm:text-5xl font-extrabold text-white mb-8">
+    <h1 class="text-4xl sm:text-5xl font-extrabold text-white mb-0">
       Welcome!
     </h1>
+
     <p
-      class="text-base sm:text-lg text-white mb-8 sm:mb-12"
+      class="text-base sm:text-lg text-white mb-8 sm:mb-6 pt-5"
       transition:fade={{ duration: 250 }}
     >
-      This page acts as a forwarder for my websites
+      Check out my work
     </p>
     <div class="flex flex-wrap justify-center gap-4 mb-12">
       <a
-        href="https://volaris.leohanney.com"
-        class="bg-white text-black font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-gray-200 transition duration-300"
-        transition:fade={{ duration: 250 }}
-      >
-        Volaris
-      </a>
-      <a
         href="/photography"
-        class="bg-green-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-green-500 transition duration-300"
+        class="bg-blue-900 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-500 transition duration-300 hover:text-blue-300"
         transition:fade={{ duration: 250 }}
       >
         Photography
       </a>
-    </div>
-    <p
-      class="text-base sm:text-lg text-white mb-6"
-      transition:fade={{ duration: 250 }}
-    >
       <a
-        href="https://github.com/greendoescode"
-        class="text-green-400 hover:underline">Github</a
+        href="https://github.com/ZachNiederstadt"
+        target="_blank"
+        class="bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-200 transition duration-300 hover:text-blue-100"
+        transition:fade={{ duration: 250 }}
       >
-      or
+        Github
+      </a>
       <a
-        href="https://github.com/volar-is"
-        class="text-green-400 hover:underline">Volaris Github</a
-      > for the latest updates.
-    </p>
+        href="https://docs.google.com/document/d/1rVgljEEaeOdQa3Y7yF_dapNw2Kt7qeqOZVkeqAEnwkA/edit?usp=sharing"
+        target="_blank"
+        class="bg-blue-300 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-white hover:text-blue-300 transition duration-300"
+        transition:fade={{ duration: 250 }}
+      >
+        Resume
+      </a>
+    </div>
   </div>
 </div>
 
