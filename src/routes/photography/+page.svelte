@@ -37,7 +37,7 @@
   >
     <a class="nav-link mr-5" href="/about" style="color: white;">About</a>
     <a
-      class="navbar-brand text-base lg:text-3xl font-semibold"
+      class="navbar-brand text-3xl font-semibold"
       href="/"
       style="color: white;">ZN</a
     >
@@ -52,7 +52,7 @@
   >
     <div class="container mx-auto text-center pt-12 md:pt-5 lg:pt-2 xl:pt-0">
       <h1 class="text-3xl font-bold text-white">Zach Niederstadt</h1>
-      <p class="text-md font-bold text-white mt-4">
+      <p class="text-md font-semibold text-white mt-4">
         Capturing life as it flies by.
       </p>
       <br />
