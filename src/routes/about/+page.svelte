@@ -23,10 +23,8 @@
 		class="bg-opacity-75 text-white p-4 absolute top-0 w-full flex justify-center items-center"
 	>
 		<a class="nav-link mr-5" href="/about" style="color: white;">About</a>
-		<a
-			class="navbar-brand text-2xl font-semibold"
-			href="/photography"
-			style="color: white;">Zach Niederstadt</a
+		<a class="navbar-brand text-2xl font-semibold" href="/photography"
+			>Zach Niederstadt</a
 		>
 		<a class="nav-link ml-5" href="/portfolio" style="color: white;"
 			>Portfolio</a
@@ -34,7 +32,7 @@
 	</nav>
 
 	<header
-		class="bg-cover bg-center min-h-screen flex flex-col justify-center items-center"
+		class="bg-cover bg-center min-h-screen flex flex-col justify-center items-center pt-10 pb-10 pr-5 pl-5"
 	>
 		<div class="container mx-auto text-center">
 			<br />
@@ -58,8 +56,8 @@
 				</h2>
 				<p class="text-gray-200 text-lg leading-relaxed mb-4"></p>
 				<p class="text-gray-200 text-sm leading-relaxed mb-4">
-					I'm someone who's loved photogrphy my whoe life, and has recently
-					starteed to learn how to use a digital camera and mess with capture
+					I'm someone who's loved photogrphy my whole life, and has recently
+					started to learn how to use a digital camera and mess with capture
 					settings manually as well as how to edit and color grade using Adobe
 					Lightroom. I really enjoy the challenge of capturing motorsports at
 					high speeds, and the challenge of trying to make a great background
@@ -94,7 +92,7 @@
 			<br />
 		</div>
 	</header>
-	<p class="text-white text-center py-3" style="margin-top:-3rem">
+	<p class="text-white text-center py-3" style="margin-top:-3rem pt-2">
 		&copy; {year} Zach Niederstadt. All rights reserved.
 	</p>
 </main>

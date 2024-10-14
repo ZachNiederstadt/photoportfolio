@@ -112,18 +112,18 @@
     <section id="portfolio" class="py-5">
         <div class="container mx-auto mt-20 text-center">
             <h1 class="text-5xl font-bold text-white mb-4">F1 2023 COTA</h1>
-            <p class="text-lg font-bold text-white mb-8">
+            <p class="text-md font-bold text-white mb-8 pl-2 pr-2">
                 My view from the Legendary Cota S section
             </p>
             <div
-                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-2"
             >
                 {#each collections[0].images as image, index}
                     <div class="content-center">
                         <img
                             src={image}
                             alt={`Image ${index + 1}`}
-                            class="w-full h-auto cursor-pointer shadow-sm rounded-lg"
+                            class="w-full h-auto cursor-pointer shadow-sm"
                             on:click={() => toggleFullScreen(image)}
                         />
                     </div>

@@ -116,12 +116,14 @@
 
     <section id="portfolio" class="py-5">
         <div class="container mx-auto mt-20 text-center">
-            <h1 class="text-5xl font-bold text-white mb-4">KBD Drift Event</h1>
-            <p class="text-lg font-bold text-white mb-8">
+            <h1 class="text-5xl font-bold text-white mb-4 pl-2 pr-2">
+                KBD Drift Event
+            </h1>
+            <p class="text-sm font-bold text-white mb-8 pl-2 pr-2">
                 Photos from an amazing KBD Event at Cams Acres
             </p>
             <div
-                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-2"
             >
                 {#each collections[0].images as image, index}
                     <div class="content-center">

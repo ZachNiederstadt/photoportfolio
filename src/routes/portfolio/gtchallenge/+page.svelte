@@ -106,21 +106,21 @@
 
     <section id="portfolio" class="py-5">
         <div class="container mx-auto mt-20 text-center">
-            <h1 class="text-5xl font-bold text-white mb-4">
+            <h1 class="text-5xl font-bold text-white mb-4 pl-2 pr-2">
                 GT Challenge COTA 2023
             </h1>
-            <p class="text-lg font-bold text-white mb-8">
+            <p class="text-md font-bold text-white mb-8 pl-1 pr-2">
                 My trip to see the GT Challenge America series
             </p>
             <div
-                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-2"
             >
                 {#each collections[0].images as image, index}
                     <div class="content-center">
                         <img
                             src={image}
                             alt={`Image ${index + 1}`}
-                            class="w-full h-auto cursor-pointer"
+                            class="w-full h-auto cursor-pointer shadow-lg"
                             on:click={() => toggleFullScreen(image)}
                         />
                     </div>
