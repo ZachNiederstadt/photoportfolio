@@ -29,7 +29,7 @@
     >
       Check out my work
     </p>
-    <div class="flex flex-wrap justify-center gap-4 mb-12">
+    <div class="flex justify-center gap-4 mb-12">
       <a
         href="/photography"
         class="bg-blue-900 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-500 transition duration-300 hover:text-blue-300"
