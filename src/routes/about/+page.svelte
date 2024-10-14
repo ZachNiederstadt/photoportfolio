@@ -32,25 +32,28 @@
 	<header
 		class="bg-cover bg-center min-h-screen flex flex-col justify-center items-center pt-10 pb-10 pr-5 pl-5"
 	>
-		<div class="container mx-auto text-center">
+		<div class="container mx-auto text-center tracking-tight">
 			<br />
 			<div
 				class="bg-stone-900 bg-opacity-90 rounded-lg p-8 shadow-2xl max-w-3xl mx-auto"
 			>
 				<div class="flex justify-center">
-					<img
-						src="/images/profile.avif"
-						alt="Zach Niederstadt"
-						class="w-40 h-40 rounded-full object-cover mx-auto mb-4 shadow-2xl"
-					/>
+					<figure>
+						<img
+							src="/images/profile.avif"
+							alt="Zach Niederstadt"
+							class="w-40 h-40 rounded-full object-cover mx-auto mb-4 shadow-2xl"
+						/>
+						<figcaption
+							class="flex justify-center text-xs text-stone-200 leading-relaxed pb-3"
+						>
+							Me (right) with the Gran Turismo franchise creator, Kazunori
+							Yamauchi
+						</figcaption>
+					</figure>
 				</div>
-				<caption
-					class="flex justify-center text-xs text-stone-200 leading-relaxed pb-3"
-				>
-					Me (right) with the Gran Turismo franchise creator, Kazunori Yamauchi</caption
-				>
 				<h2 class="text-3xl font-bold text-stone-400 mb-4">
-					Hi! I'm Zachary Niederstadt,
+					Hi! I'm Zachary Niederstadt
 				</h2>
 				<p class="text-gray-200 text-lg leading-relaxed mb-4"></p>
 				<p class="text-stone-200 text-sm leading-relaxed mb-4">
