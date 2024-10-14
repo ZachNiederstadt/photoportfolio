@@ -37,13 +37,13 @@
 		<div class="container mx-auto text-center">
 			<br />
 			<div
-				class="bg-stone-900 bg-opacity-90 rounded-lg p-8 shadow-md max-w-3xl mx-auto"
+				class="bg-stone-900 bg-opacity-90 rounded-lg p-8 shadow-2xl max-w-3xl mx-auto"
 			>
 				<div class="flex justify-center">
 					<img
 						src="/images/profile.avif"
 						alt="Zach Niederstadt"
-						class="w-40 h-40 rounded-full object-cover mx-auto mb-4 shadow-lg"
+						class="w-40 h-40 rounded-full object-cover mx-auto mb-4 shadow-2xl"
 					/>
 				</div>
 				<caption
