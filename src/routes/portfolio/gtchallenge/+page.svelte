@@ -6,18 +6,18 @@
         {
             name: "Mendip Ski",
             images: [
-                "/images/mendipski/image1.avif",
-                "/images/mendipski/image2.avif",
-                "/images/mendipski/image3.avif",
-                "/images/mendipski/image4.avif",
-                "/images/mendipski/image5.avif",
-                "/images/mendipski/image6.avif",
-                "/images/mendipski/image7.avif",
-                "/images/mendipski/image8.avif",
-                "/images/mendipski/image9.avif",
-                "/images/mendipski/image10.avif",
-                "/images/mendipski/image11.avif",
-                "/images/mendipski/image12.avif",
+                "/images/gtchallenge/image-16.avif",
+                "/images/gtchallenge/image-17.avif",
+                "/images/gtchallenge/image-18.avif",
+                "/images/gtchallenge/image-19.avif",
+                "/images/gtchallenge/image-20.avif",
+                "/images/gtchallenge/image-21.avif",
+                "/images/gtchallenge/image-22.avif",
+                "/images/gtchallenge/image-23.avif",
+                "/images/gtchallenge/image-24.avif",
+                "/images/gtchallenge/image-25.avif",
+                "/images/gtchallenge/image-26.avif",
+                "/images/gtchallenge/image-27.avif",
             ],
         },
     ];
@@ -112,7 +112,7 @@
                 class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
             >
                 {#each collections[0].images as image, index}
-                    <div>
+                    <div class="content-center">
                         <img
                             src={image}
                             alt={`Image ${index + 1}`}

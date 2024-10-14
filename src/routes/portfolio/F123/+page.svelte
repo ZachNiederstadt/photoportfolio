@@ -4,39 +4,20 @@
 
     let collections = [
         {
-            name: "Mendip Ski Toboganning",
+            name: "F1 2023",
             images: [
-                "/images/twilightoboganning/image1.avif",
-                "/images/twilightoboganning/image2.avif",
-                "/images/twilightoboganning/image3.avif",
-                "/images/twilightoboganning/image4.avif",
-                "/images/twilightoboganning/image5.avif",
-                "/images/twilightoboganning/image6.avif",
-                "/images/twilightoboganning/image7.avif",
-                "/images/twilightoboganning/image8.avif",
-                "/images/twilightoboganning/image9.avif",
-                "/images/twilightoboganning/image10.avif",
-                "/images/twilightoboganning/image11.avif",
-                "/images/twilightoboganning/image12.avif",
-                "/images/twilightoboganning/image13.avif",
-                "/images/twilightoboganning/image14.avif",
-                "/images/twilightoboganning/image15.avif",
-                "/images/twilightoboganning/image16.avif",
-                "/images/twilightoboganning/image17.avif",
-                "/images/twilightoboganning/image18.avif",
-                "/images/twilightoboganning/image19.avif",
-                "/images/twilightoboganning/image20.avif",
-                "/images/twilightoboganning/image21.avif",
-                "/images/twilightoboganning/image22.avif",
-                "/images/twilightoboganning/image23.avif",
-                "/images/twilightoboganning/image24.avif",
-                "/images/twilightoboganning/image25.avif",
-                "/images/twilightoboganning/image26.avif",
-                "/images/twilightoboganning/image27.avif",
-                "/images/twilightoboganning/image28.avif",
-                "/images/twilightoboganning/image29.avif",
-                "/images/twilightoboganning/image30.avif",
-                "/images/twilightoboganning/image31.avif",
+                "/images/F1/image-1.avif",
+                "/images/F1/image-4.avif",
+                "/images/F1/image-2.avif",
+                "/images/F1/image-3.avif",
+                "/images/F1/image-6.avif",
+                "/images/F1/image-9.avif",
+                "/images/F1/image-8.avif",
+                "/images/F1/image-5.avif",
+                "/images/F1/image-7.avif",
+                "/images/F1/image-10.avif",
+                "/images/F1/image-15.avif",
+                "/images/F1/image-11.avif",
             ],
         },
     ];
@@ -130,17 +111,15 @@
 
     <section id="portfolio" class="py-5">
         <div class="container mx-auto mt-20 text-center">
-            <h1 class="text-5xl font-bold text-white mb-4">
-                Twilight Toboganning
-            </h1>
+            <h1 class="text-5xl font-bold text-white mb-4">F1 2023 COTA</h1>
             <p class="text-lg font-bold text-white mb-8">
-                Shoot for Mendip Activity Centers Twilight Toboganning.
+                My view from the Legendary Cota S section
             </p>
             <div
                 class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
             >
                 {#each collections[0].images as image, index}
-                    <div>
+                    <div class="content-center">
                         <img
                             src={image}
                             alt={`Image ${index + 1}`}
