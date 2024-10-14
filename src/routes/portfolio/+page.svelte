@@ -60,9 +60,9 @@
   >
     <a class="nav-link mr-5" href="/about" style="color: white;">About</a>
     <a
-      class="navbar-brand text-2xl font-semibold"
+      class="navbar-brand text-3xl font-semibold"
       href="/photography"
-      style="color: white;">Zach Niederstadt</a
+      style="color: white;">ZN</a
     >
     <a class="nav-link ml-5" href="/portfolio" style="color: white;"
       >Portfolio</a

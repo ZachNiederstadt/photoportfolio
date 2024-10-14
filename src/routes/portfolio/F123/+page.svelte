@@ -82,7 +82,7 @@
 <svelte:head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Twilight Toboganning - Zach Niederstadt</title>
+    <title>F1 COTA 2023 - Zach Niederstadt</title>
     <meta
         property="og:title"
         content="Twilight Toboganning - Zach Niederstadt"
@@ -100,9 +100,9 @@
     >
         <a class="nav-link mr-5" href="/about" style="color: white;">About</a>
         <a
-            class="navbar-brand text-2xl font-semibold"
+            class="navbar-brand text-3xl font-semibold"
             href="/photography"
-            style="color: white;">Zach Niederstadt</a
+            style="color: white;">ZN</a
         >
         <a class="nav-link ml-5" href="/portfolio" style="color: white;"
             >Portfolio</a
@@ -112,7 +112,7 @@
     <section id="portfolio" class="py-5">
         <div class="container mx-auto mt-20 text-center">
             <h1 class="text-5xl font-bold text-white mb-4">F1 2023 COTA</h1>
-            <p class="text-md font-bold text-white mb-8 pl-2 pr-2">
+            <p class="text-md font-semibold text-white mb-8 pl-2 pr-2">
                 My view from the Legendary Cota S section
             </p>
             <div

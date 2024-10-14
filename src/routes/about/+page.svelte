@@ -23,9 +23,7 @@
 		class="bg-opacity-75 text-white p-4 absolute top-0 w-full flex justify-center items-center"
 	>
 		<a class="nav-link mr-5" href="/about" style="color: white;">About</a>
-		<a class="navbar-brand text-2xl font-semibold" href="/photography"
-			>Zach Niederstadt</a
-		>
+		<a class="navbar-brand text-3xl font-semibold" href="/photography">ZN</a>
 		<a class="nav-link ml-5" href="/portfolio" style="color: white;"
 			>Portfolio</a
 		>
@@ -47,15 +45,15 @@
 					/>
 				</div>
 				<caption
-					class="flex justify-center text-white text-xs text-stone-500
-					 leading-relaxed"
-					>Me (right) with the Gran Turismo franchise creator, Kazunori Yamauchi</caption
+					class="flex justify-center text-xs text-stone-300 leading-relaxed pb-3"
 				>
-				<h2 class="text-3xl font-bold text-gray-200 mb-4">
-					Hi! I'm Zach Niederstadt,
+					Me (right) with the Gran Turismo franchise creator, Kazunori Yamauchi</caption
+				>
+				<h2 class="text-3xl font-bold text-stone-400 mb-4">
+					Hi! I'm Zachary Niederstadt,
 				</h2>
 				<p class="text-gray-200 text-lg leading-relaxed mb-4"></p>
-				<p class="text-gray-200 text-sm leading-relaxed mb-4">
+				<p class="text-stone-200 text-sm leading-relaxed mb-4">
 					I'm someone who's loved photogrphy my whole life, and has recently
 					started to learn how to use a digital camera and mess with capture
 					settings manually as well as how to edit and color grade using Adobe

@@ -90,8 +90,11 @@
 <svelte:head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ghosts! - Zach Niederstadt</title>
-    <meta property="og:title" content="Ghosts - Zach Niederstadt" />
+    <title>KBD Drift Event 2024 - Zach Niederstadt</title>
+    <meta
+        property="og:title"
+        content="KBD Drift Event 2024 - Zach Niederstadt"
+    />
     <meta
         property="og:description"
         content="Photos from an amazing KBD Event at Cams Acres"
@@ -105,9 +108,9 @@
     >
         <a class="nav-link mr-5" href="/about" style="color: white;">About</a>
         <a
-            class="navbar-brand text-2xl font-semibold"
+            class="navbar-brand text-3xl font-semibold"
             href="/photography"
-            style="color: white;">Zach Niederstadt</a
+            style="color: white;">ZN</a
         >
         <a class="nav-link ml-5" href="/portfolio" style="color: white;"
             >Portfolio</a
@@ -119,7 +122,7 @@
             <h1 class="text-5xl font-bold text-white mb-4 pl-2 pr-2">
                 KBD Drift Event
             </h1>
-            <p class="text-sm font-bold text-white mb-8 pl-2 pr-2">
+            <p class="text-sm font-semibold text-white mb-8 pl-2 pr-2">
                 Photos from an amazing KBD Event at Cams Acres
             </p>
             <div
