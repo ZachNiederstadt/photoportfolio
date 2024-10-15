@@ -48,18 +48,18 @@
 							class="w-40 h-40 rounded-full object-cover mx-auto mb-4 shadow-2xl"
 						/>
 						<figcaption
-							class="flex justify-center text-sm font-orbitron text-stone-400 leading-relaxed pb-3"
+							class="flex justify-center text-sm font-orbitron text-stone-200 leading-relaxed pb-3"
 						>
 							Me (right) with the Gran Turismo franchise creator, Kazunori
 							Yamauchi
 						</figcaption>
 					</figure>
 				</div>
-				<h2 class="text-3xl font-bold font-orbitron text-stone-100 mb-4">
+				<h2 class="text-3xl font-bold font-orbitron text-white mb-4">
 					Hi! I'm Zachary Niederstadt
 				</h2>
 				<p class="text-gray-200 text-lg leading-relaxed mb-4"></p>
-				<p class="text-stone-300 text-sm leading-loose mb-4">
+				<p class="text-stone-200 text-sm leading-loose mb-4">
 					I'm someone who's loved photogrphy my whole life, and has recently
 					started to learn how to use a digital camera and mess with capture
 					settings manually as well as how to edit and color grade using Adobe
@@ -81,7 +81,7 @@
 					or the calm in the chaos, it can help prepare you to take on those
 					challenges in the mental health of your life too.
 				</p>
-				<p class="text-stone-300 text-sm leading-loose mb-4">
+				<p class="text-stone-200 text-sm leading-loose mb-4">
 					Besides photography and Psychology, I'm also a huge sports fan in
 					general. Especially when you're talking about actually getting out
 					there and playing, I'll play almost any sport if you ask. I also
