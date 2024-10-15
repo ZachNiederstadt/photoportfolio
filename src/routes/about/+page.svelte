@@ -82,13 +82,15 @@
 					challenges in the mental health of your life too.
 				</p>
 				<p class="text-gray-300 text-sm leading-loose mb-4">
-					Besides photography and Psychology, I'm just a huge sports fan in
+					Besides photography and Psychology, I'm also a huge sports fan in
 					general. Especially when you're talking about actually getting out
-					there and playing. I'll play almost any sport if you ask. I also
+					there and playing, I'll play almost any sport if you ask. I also
 					played a year of college baseball and was a part of a Porsche Esports
 					challenge event with Gran Turismo 7 (from the picture above with the
-					creator). I also just love nature and expoloring this world we call
-					home as well.
+					creator). I really enjoy how sports constantly force me to push myself
+					to learn and improve more, while having a healthy space for my
+					competitive side. I also just love nature and expoloring this world we
+					call home as well.
 				</p>
 			</div>
 			<br />
