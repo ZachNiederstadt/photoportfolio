@@ -47,12 +47,6 @@
 							alt="Zach Niederstadt"
 							class="w-40 h-40 rounded-full object-cover mx-auto mb-4 shadow-2xl"
 						/>
-						<figcaption
-							class="flex justify-center text-[10px] font-orbitron text-stone-200 leading-relaxed pb-7 pt-2 tracking-wider"
-						>
-							Me (right) with the Gran Turismo franchise creator, Kazunori
-							Yamauchi
-						</figcaption>
 					</figure>
 				</div>
 				<h2
@@ -102,6 +96,12 @@
 					competitive side. I also just love nature and expoloring this world we
 					call home as well.
 				</p>
+				<figcaption
+					class="flex justify-center text-[10px] text-white leading-relaxed pb-7 pt-2 tracking-widest"
+				>
+					[Profile Img.] Me (right) with the Gran Turismo franchise creator,
+					Kazunori Yamauchi (left)
+				</figcaption>
 			</div>
 			<br />
 		</div>

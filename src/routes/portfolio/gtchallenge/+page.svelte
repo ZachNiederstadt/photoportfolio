@@ -95,7 +95,7 @@
     >
         <a class="nav-link mr-5" href="/about" style="color: white;">About</a>
         <a
-            class="navbar-brand text-3xl font-semibold"
+            class="navbar-brand text-4xl font-orbitron font-semibold"
             href="/photography"
             style="color: white;">ZN</a
         >
