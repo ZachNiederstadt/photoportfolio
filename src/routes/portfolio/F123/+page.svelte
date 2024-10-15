@@ -111,7 +111,11 @@
 
     <section id="portfolio" class="py-5">
         <div class="container mx-auto mt-20 text-center">
-            <h1 class="text-5xl font-bold text-white mb-4">F1 2023 COTA</h1>
+            <h1
+                class="text-5xl font-bold text-white mb-4 font-orbitron tracking-wider"
+            >
+                F1 COTA 2023
+            </h1>
             <p class="text-md font-semibold text-white mb-8 pl-2 pr-2">
                 My view from the Legendary Cota S section
             </p>

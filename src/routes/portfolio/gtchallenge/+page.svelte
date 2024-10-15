@@ -106,7 +106,9 @@
 
     <section id="portfolio" class="py-5">
         <div class="container mx-auto mt-20 text-center">
-            <h1 class="text-5xl font-bold text-white mb-4 pl-2 pr-2">
+            <h1
+                class="text-3xl font-bold text-white mb-4 pl-2 pr-2 font-orbitron tracking-wider"
+            >
                 GT Challenge COTA 2023
             </h1>
             <p class="text-md font-semibold text-white mb-8 pl-1 pr-2">

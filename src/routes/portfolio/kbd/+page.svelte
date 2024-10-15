@@ -119,7 +119,9 @@
 
     <section id="portfolio" class="py-5">
         <div class="container mx-auto mt-20 text-center">
-            <h1 class="text-5xl font-bold text-white mb-4 pl-2 pr-2">
+            <h1
+                class="text-5xl font-bold text-white mb-4 pl-2 pr-2 tracking-wider font-orbitron"
+            >
                 KBD Drift Event
             </h1>
             <p class="text-sm font-semibold text-white mb-8 pl-2 pr-2">
