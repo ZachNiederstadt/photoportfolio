@@ -40,7 +40,7 @@
 			<div
 				class="bg-stone-900 bg-opacity-70 rounded-lg p-8 shadow-2xl max-w-3xl mx-auto"
 			>
-				<div class="flex justify-center">
+				<div class="flex justify-center pb-5">
 					<figure>
 						<img
 							src="/images/profile.avif"
