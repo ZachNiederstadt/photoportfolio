@@ -97,14 +97,16 @@
 					call home as well.
 				</p>
 				<figcaption
-					class="flex justify-center text-[10px] text-white leading-relaxed pb-7 pt-2 tracking-widest"
+					class="flex justify-center text-[10px] text-white leading-relaxed pb- pt-2 tracking-widest"
 				>
-					[Profile Img.] Me (right) with the Gran Turismo franchise creator, <a
-						href="https://en.wikipedia.org/wiki/Kazunori_Yamauchi"
-						>Kazunori Yamauchi</a
-					>
-					(left)
+					[Profile Img.]From when I got to meet the Gran Turismo franchise
+					creator
 				</figcaption>
+				<a
+					class="text-blue-500 text-sm"
+					href="https://en.wikipedia.org/wiki/Kazunori_Yamauchi"
+					>Kazunori Yamauchi</a
+				>
 			</div>
 			<br />
 		</div>
