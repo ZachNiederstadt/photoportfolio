@@ -23,7 +23,10 @@
 		class="bg-opacity-75 text-white p-4 absolute top-0 w-full flex justify-center items-center"
 	>
 		<a class="nav-link mr-5" href="/about" style="color: white;">About</a>
-		<a class="navbar-brand text-3xl font-semibold" href="/photography">ZN</a>
+		<a
+			class="navbar-brand text-4xl font-semibold font-orbitron"
+			href="/photography">ZN</a
+		>
 		<a class="nav-link ml-5" href="/portfolio" style="color: white;"
 			>Portfolio</a
 		>
@@ -35,7 +38,7 @@
 		<div class="container mx-auto text-center tracking-tight">
 			<br />
 			<div
-				class="bg-stone-900 bg-opacity-90 rounded-lg p-8 shadow-2xl max-w-3xl mx-auto"
+				class="bg-stone-900 bg-opacity-70 rounded-lg p-8 shadow-2xl max-w-3xl mx-auto"
 			>
 				<div class="flex justify-center">
 					<figure>
@@ -45,18 +48,20 @@
 							class="w-40 h-40 rounded-full object-cover mx-auto mb-4 shadow-2xl"
 						/>
 						<figcaption
-							class="flex justify-center text-xs text-stone-200 leading-relaxed pb-3"
+							class="flex justify-center text-sm font-orbitron text-stone-200 leading-relaxed pb-3"
 						>
 							Me (right) with the Gran Turismo franchise creator, Kazunori
 							Yamauchi
 						</figcaption>
 					</figure>
 				</div>
-				<h2 class="text-3xl font-bold text-stone-400 mb-4">
+				<h2
+					class="text-3xl font-bold font-orbitron text-stone-300 mb-4 shadow-2xl"
+				>
 					Hi! I'm Zachary Niederstadt
 				</h2>
 				<p class="text-gray-200 text-lg leading-relaxed mb-4"></p>
-				<p class="text-stone-200 text-sm leading-relaxed mb-4">
+				<p class="text-stone-200 text-sm leading-loose mb-4">
 					I'm someone who's loved photogrphy my whole life, and has recently
 					started to learn how to use a digital camera and mess with capture
 					settings manually as well as how to edit and color grade using Adobe
@@ -67,7 +72,7 @@
 					seperating it from the background and making it feel digitally
 					created/edited.
 				</p>
-				<p class="text-gray-200 text-sm leading-relaxed mb-4">
+				<p class="text-gray-200 text-sm leading-loose mb-4 font-semibold">
 					I also hope to use photography and Psychology together to help remind
 					people you can find interesting perspectives in the most mundane
 					areas. As being a Psychology graduate, I hope to find as many aspects
@@ -80,7 +85,7 @@
 					or the calm in the chaos, it can help prepare you to take on those
 					challenges in the mental health of your life too.
 				</p>
-				<p class="text-gray-200 text-sm leading-relaxed mb-4">
+				<p class="text-gray-200 text-sm leading-loose mb-4">
 					Besides photography and Psychology, I'm just a huge sports fan in
 					general. Especially when you're talking about actually getting out
 					there and playing. I'll play almost any sport if you ask. I also

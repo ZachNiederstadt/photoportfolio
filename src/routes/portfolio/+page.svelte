@@ -60,7 +60,7 @@
   >
     <a class="nav-link mr-5" href="/about" style="color: white;">About</a>
     <a
-      class="navbar-brand text-3xl font-semibold"
+      class="navbar-brand font-semibold text-4xl font-orbitron"
       href="/photography"
       style="color: white;">ZN</a
     >
@@ -86,7 +86,7 @@
           <div class="p-4">
             <a
               href="/portfolio/F123"
-              class="block bg-stone-800 text-white text-center py-2 rounded mt-2 hover:bg-stone-500 transition duration-300 ease-in-out"
+              class="block bg-stone-800 text-white text-center py-2 rounded mt-2 hover:bg-stone-500 transition duration-300 ease-in-out font-orbitron"
               >F1 Cota 2023</a
             >
           </div>
@@ -105,7 +105,7 @@
           <div class="p-4">
             <a
               href="/portfolio/gtchallenge"
-              class="block bg-stone-800 text-white text-center py-2 rounded mt-2 hover:bg-stone-500 transition duration-300 ease-in-out"
+              class="block bg-stone-800 text-white text-center py-2 rounded mt-2 hover:bg-stone-500 transition duration-300 ease-in-out font-orbitron"
               >GT Challenge</a
             >
           </div>
@@ -124,7 +124,7 @@
           <div class="p-4">
             <a
               href="/portfolio/kbd"
-              class="block bg-stone-800 text-white text-center py-2 rounded mt-2 hover:bg-stone-500 transition duration-300 ease-in-out"
+              class="block bg-stone-800 text-white text-center py-2 rounded mt-2 hover:bg-stone-500 transition duration-300 ease-in-out font-orbitron"
               >KBD Drift Event</a
             >
           </div>

@@ -37,9 +37,9 @@
   >
     <a class="nav-link mr-5" href="/about" style="color: white;">About</a>
     <a
-      class="navbar-brand text-3xl font-semibold"
+      class="navbar-brand text-4xl font-semibold font-orbitron"
       href="/"
-      style="color: white;">ZN</a
+      style=" color: white;">ZN</a
     >
     <a class="nav-link ml-5" href="/portfolio" style="color: white;"
       >Portfolio</a
@@ -51,14 +51,17 @@
     class:bg-image-loaded={bgImageLoaded}
   >
     <div class="container mx-auto text-center pt-12 md:pt-5 lg:pt-2 xl:pt-0">
-      <h1 class="text-3xl font-bold text-white">Zach Niederstadt</h1>
-      <p class="text-md font-semibold text-white mt-4">
+      <h1 class="text-3xl font-bold font-orbitron text-white">
+        Zach Niederstadt
+      </h1>
+      <p class="text-md font-semibold text-white mt-4" style="color: white">
         Capturing life as it flies by.
       </p>
       <br />
       <div class="pt-5 md:pt-0">
         <a
           class="btn btn-primary btn-lg mt-4 px-8 py-2 text-white font-bold rounded-full bg-stone-700 hover:bg-gray-800 transition duration-300 ease-in-out"
+          style="color: white"
           href="/portfolio"
         >
           Explore Portfolio
