@@ -48,18 +48,20 @@
 							class="w-40 h-40 rounded-full object-cover mx-auto mb-4 shadow-2xl"
 						/>
 						<figcaption
-							class="flex justify-center text-sm font-orbitron text-stone-200 leading-relaxed pb-3"
+							class="flex justify-center text-xs font-orbitron text-stone-200 leading-relaxed pb-3 tracking-wider"
 						>
 							Me (right) with the Gran Turismo franchise creator, Kazunori
 							Yamauchi
 						</figcaption>
 					</figure>
 				</div>
-				<h2 class="text-3xl font-bold font-orbitron text-white mb-4">
+				<h2
+					class="text-3xl font-bold font-orbitron text-white mb-10 tracking-wide"
+				>
 					Hi! I'm Zachary Niederstadt
 				</h2>
 				<p class="text-gray-200 text-lg leading-relaxed mb-4"></p>
-				<p class="text-stone-200 text-sm leading-loose mb-4">
+				<p class="text-stone-200 text-sm leading-loose mb-4 tracking-wide">
 					I'm someone who's loved photogrphy my whole life, and has recently
 					started to learn how to use a digital camera and mess with capture
 					settings manually as well as how to edit and color grade using Adobe
@@ -68,7 +70,12 @@
 					that's not overpowering the the subject, and creating a great subject
 					that doesn't sit too seperately from the background.
 				</p>
-				<p class="text-stone-100 text-sm leading-loose mb-4 font-semibold">
+				<p class="text-stone-200 text-sm leading-loose mb-4 tracking-wide">
+					---
+				</p>
+				<p
+					class="text-stone-100 text-sm leading-loose mb-4 font-semibold tracking-wide"
+				>
 					I also hope to use photography and Psychology together to help remind
 					people that you can find interesting perspectives in the most mundane
 					areas. As being a Psychology graduate, I hope to find as many aspects
@@ -81,7 +88,10 @@
 					or the calm in the chaos, it can help prepare you to take on those
 					challenges in the mental health of your life too.
 				</p>
-				<p class="text-stone-200 text-sm leading-loose mb-4">
+				<p class="text-stone-200 text-sm leading-loose mb-4 tracking-wide">
+					---
+				</p>
+				<p class="text-stone-200 text-sm leading-loose mb-4 tracking-wide">
 					Besides photography and Psychology, I'm also a huge sports fan in
 					general. Especially when you're talking about actually getting out
 					there and playing, I'll play almost any sport if you ask. I also
