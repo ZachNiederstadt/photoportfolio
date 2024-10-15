@@ -63,22 +63,20 @@
 					I'm someone who's loved photogrphy my whole life, and has recently
 					started to learn how to use a digital camera and mess with capture
 					settings manually as well as how to edit and color grade using Adobe
-					Lightroom. I really enjoy the challenge of capturing motorsports at
-					high speeds, and the challenge of trying to make a great background
-					that's not overpowering the the subject. I also enjoy the challenge
-					that arises of trying to make the subject really pop without
-					seperating it from the background and making it feel digitally
-					created/edited.
+					Lightroom. I also really enjoy the challenge of capturing motorsports
+					at high speeds, and the challenge of trying to make a great background
+					that's not overpowering the the subject, and creating a great subject
+					that doesn't sit too seperately from the background.
 				</p>
 				<p class="text-gray-200 text-sm leading-loose mb-4 font-semibold">
 					I also hope to use photography and Psychology together to help remind
-					people you can find interesting perspectives in the most mundane
+					people that you can find interesting perspectives in the most mundane
 					areas. As being a Psychology graduate, I hope to find as many aspects
 					of life I can to help ground people into healthier mindsets and
 					persepectives of life. And I think in a chaotic world of hyper
 					stimulations, the importance of photography to be something where you
 					slow down, and think about about a single moment in time for a bit is
-					extremely healthy. Not to mention, if you can take average places in
+					extremely healthy. Not to mention, if you can take mundane places in
 					the world, and guide your creativity to find the beauty in the dull,
 					or the calm in the chaos, it can help prepare you to take on those
 					challenges in the mental health of your life too.
