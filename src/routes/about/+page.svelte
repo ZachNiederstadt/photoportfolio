@@ -59,7 +59,7 @@
 					Hi! I'm Zachary Niederstadt
 				</h2>
 				<p class="text-gray-200 text-lg leading-relaxed mb-4"></p>
-				<p class="text-stone-300 text-sm leading-loose mb-4">
+				<p class="text-stone-400 text-sm leading-loose mb-4">
 					I'm someone who's loved photogrphy my whole life, and has recently
 					started to learn how to use a digital camera and mess with capture
 					settings manually as well as how to edit and color grade using Adobe
@@ -68,7 +68,7 @@
 					that's not overpowering the the subject, and creating a great subject
 					that doesn't sit too seperately from the background.
 				</p>
-				<p class="text-gray-200 text-sm leading-loose mb-4 font-semibold">
+				<p class="text-stone-100 text-sm leading-loose mb-4 font-semibold">
 					I also hope to use photography and Psychology together to help remind
 					people that you can find interesting perspectives in the most mundane
 					areas. As being a Psychology graduate, I hope to find as many aspects
@@ -81,7 +81,7 @@
 					or the calm in the chaos, it can help prepare you to take on those
 					challenges in the mental health of your life too.
 				</p>
-				<p class="text-gray-300 text-sm leading-loose mb-4">
+				<p class="text-stone-400 text-sm leading-loose mb-4">
 					Besides photography and Psychology, I'm also a huge sports fan in
 					general. Especially when you're talking about actually getting out
 					there and playing, I'll play almost any sport if you ask. I also
