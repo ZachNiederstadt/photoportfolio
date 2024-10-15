@@ -48,7 +48,7 @@
 							class="w-40 h-40 rounded-full object-cover mx-auto mb-4 shadow-2xl"
 						/>
 						<figcaption
-							class="flex justify-center text-sm font-orbitron text-stone-300 leading-relaxed pb-3"
+							class="flex justify-center text-sm font-orbitron text-stone-500 leading-relaxed pb-3"
 						>
 							Me (right) with the Gran Turismo franchise creator, Kazunori
 							Yamauchi
