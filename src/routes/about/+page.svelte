@@ -99,8 +99,11 @@
 				<figcaption
 					class="flex justify-center text-[10px] text-white leading-relaxed pb-7 pt-2 tracking-widest"
 				>
-					[Profile Img.] Me (right) with the Gran Turismo franchise creator,
-					Kazunori Yamauchi (left)
+					[Profile Img.] Me (right) with the Gran Turismo franchise creator, <a
+						href="https://en.wikipedia.org/wiki/Kazunori_Yamauchi"
+						>Kazunori Yamauchi</a
+					>
+					(left)
 				</figcaption>
 			</div>
 			<br />

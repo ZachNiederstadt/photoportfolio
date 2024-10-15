@@ -71,10 +71,28 @@
         </a>
       </div>
     </div>
+    <div class="flex justify-center gap-4" style="margin-top:25rem">
+      <a
+        href="https://www.instagram.com/niederdrifts/"
+        class="bg-blue-900 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-600 hover:text-blue-800"
+        style=""
+      >
+        Instagram
+      </a>
+      <a
+        href="https://www.youtube.com/niederdrifts/"
+        class="bg-blue-900 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-600 hover:text-blue-800"
+        style=""
+      >
+        YouTube
+      </a>
+    </div>
   </header>
-  <p class="text-white text-center py-3" style="margin-top:-3rem">
-    &copy; {year} Zach Niederstadt. All rights reserved.
-  </p>
+  <div class="mt--3">
+    <p class="text-white text-center py-3" style="margin-top:-3rem">
+      &copy; {year} Zach Niederstadt. All rights reserved.
+    </p>
+  </div>
 </main>
 
 <style>
