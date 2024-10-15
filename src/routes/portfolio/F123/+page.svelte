@@ -58,22 +58,10 @@
             } else if (imgElement.msRequestFullscreen) {
                 imgElement.msRequestFullscreen();
             }
-
-            fullscreen = true;
-        } else {
-            exitFullScreen();
         }
     }
 
-    function exitFullScreen() {
-        if (document.exitFullscreen) {
-            document.exitFullscreen();
-        } else if (document.webkitExitFullscreen) {
-            document.webkitExitFullscreen();
-        } else if (document.msExitFullscreen) {
-            document.msExitFullscreen();
-        }
-
+    async function exitFullScreen() {
         imgElement.parentNode.removeChild(imgElement);
         fullscreen = false;
     }

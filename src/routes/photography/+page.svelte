@@ -1,16 +1,5 @@
 <script>
   import "$lib/global.css";
-  import { onMount } from "svelte";
-
-  let bgImageLoaded = false;
-
-  onMount(() => {
-    const highQualityImage = new Image();
-    highQualityImage.src = "/images/test.avif";
-    highQualityImage.onload = () => {
-      bgImageLoaded = true;
-    };
-  });
 
   const year = new Date().getFullYear();
 </script>
@@ -30,7 +19,7 @@
 
 <main
   class="bg-cover bg-center content-center"
-  style="background-image: url('/images/low-quality.avif');"
+  style="background-image: url('/images/test.avif');"
 >
   <nav
     class="bg-opacity-75 text-white p-4 absolute top-0 w-full flex justify-center items-center"
@@ -48,7 +37,6 @@
 
   <header
     class="bg-cover bg-center min-h-screen flex flex-col justify-top pt-[7%] items-center"
-    class:bg-image-loaded={bgImageLoaded}
   >
     <div class="container mx-auto text-center pt-12 md:pt-5 lg:pt-2 xl:pt-0">
       <h1 class="text-3xl font-bold font-orbitron text-white tracking-wider">
@@ -98,9 +86,5 @@
 <style>
   .bg-cover {
     transition: background-image 1.5s ease-in-out;
-  }
-
-  .bg-image-loaded {
-    background-image: url("/images/test.avif") !important;
   }
 </style>

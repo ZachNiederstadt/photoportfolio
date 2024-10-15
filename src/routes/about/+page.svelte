@@ -61,8 +61,8 @@
 					settings manually as well as how to edit and color grade using Adobe
 					Lightroom. I also really enjoy the challenge of capturing motorsports
 					at high speeds, and the challenge of trying to make a great background
-					that's not overpowering the the subject, and creating a great subject
-					that doesn't sit too seperately from the background.
+					that's not overpowering the subject, and creating a great subject that
+					doesn't sit too seperately from the background.
 				</p>
 				<p class="text-stone-200 text-sm leading-loose mb-4 tracking-wide">
 					---
@@ -96,12 +96,12 @@
 					competitive side. I also just love nature and expoloring this world we
 					call home as well.
 				</p>
-				<figcaption
+				<p
 					class="flex justify-center text-[10px] text-white leading-relaxed pb- pt-2 tracking-widest"
 				>
 					[Profile Img.]From when I got to meet the Gran Turismo franchise
 					creator
-				</figcaption>
+				</p>
 				<a
 					class="text-blue-500 text-sm"
 					href="https://en.wikipedia.org/wiki/Kazunori_Yamauchi"
