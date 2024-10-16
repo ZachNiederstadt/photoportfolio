@@ -1,0 +1,59 @@
+{
+  "extends": "./.svelte-kit/tsconfig.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "moduleResolution": "bundler",
+    "module": "es2020",
+    "lib": [
+      "es2020",
+      "DOM"
+    ],
+    "target": "es2020",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "dist",
+    "declaration": true,
+    "paths": {
+      "$lib": [
+        "./src/lib"
+      ],
+      "$lib/*": [
+        "./src/lib/*"
+      ],
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@constants/*": [
+        "./src/constants/*"
+      ],
+      "@data/*": [
+        "./src/data/*"
+      ],
+      "@stores/*": [
+        "./src/stores/*"
+      ],
+      "@icons/*": [
+        "./src/icons/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.d.ts",
+    "src/**/*.js",
+    "src/**/*.ts",
+    "src/**/*.svelte"
+  ],
+  "exclude": [
+    "src/**/*.spec.ts",
+    "node_modules"
+  ]
+}
