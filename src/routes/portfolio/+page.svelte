@@ -56,7 +56,6 @@
   <div
     class="bg-cover bg-center background pin"
     style="background-image: url('/images/portfoliobg.avif');"
-    style:transform={`translate3d(0, ${scroll * 2}px, 0)`}
   />
   <nav
     class="bg-opacity-75 text-white p-4 absolute top-0 w-full flex justify-center items-center"
