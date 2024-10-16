@@ -1,7 +1,7 @@
 <script>
     import "$lib/global.css";
     import { onMount } from "svelte";
-    import { Fullscreen } from "$lib/cmp/fullscreen";
+    //import { Fullscreen } from "$lib/cmp/fullscreen";
     let collections = [
         {
             name: "F1 2023",
