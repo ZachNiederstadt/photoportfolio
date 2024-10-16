@@ -70,9 +70,7 @@
   </nav>
 
   <div class="pt-10 pr-5 pl-5">
-    <div
-      class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 bg-cover bg-center min-h-screen"
-    >
+    <div class="container mx-auto grid lg:grid-cols-3 gap-4 min-h-screen">
       <div class="col-md-4" style="margin-top: 30px;">
         <div
           class="bg-black rounded-lg overflow-hidden shadow-md"

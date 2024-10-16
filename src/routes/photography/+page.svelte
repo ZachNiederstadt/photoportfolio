@@ -63,14 +63,15 @@
       <div class="flex justify-center gap-10 pb- mb-5" style="">
         <a
           href="https://www.instagram.com/niederdrifts/"
-          class="bg-blue-900 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-600 hover:text-blue-800"
+          class="bg-blue-900 text-white font-semibold py-3 w-[100px] flex justify-center
+           rounded-lg shadow-md hover:bg-blue-600 hover:text-blue-800"
           style=""
         >
           Instagram
         </a>
         <a
           href="https://www.youtube.com/niederdrifts/"
-          class="bg-blue-900 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-600 hover:text-blue-800"
+          class="bg-blue-900 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-600 hover:text-blue-800 w-[100px] flex justify-center"
           style=""
         >
           YouTube
