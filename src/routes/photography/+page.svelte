@@ -1,5 +1,6 @@
 <script>
   import "$lib/global.css";
+  let scroll;
 
   const year = new Date().getFullYear();
 </script>
@@ -16,7 +17,7 @@
   <meta property="og:image" content="" />
   <link rel="preload" href="/images/test.avif" as="image" />
 </svelte:head>
-
+<svelte:window bind:scrollY={scroll} />
 <main
   class="bg-cover bg-center content-center"
   style="background-image: url('/images/test.avif');"
@@ -85,9 +86,3 @@
     </footer>
   </div>
 </main>
-
-<style>
-  .bg-cover {
-    transition: background-image 1.5s ease-in-out;
-  }
-</style>

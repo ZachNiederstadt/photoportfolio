@@ -1,6 +1,7 @@
 <script>
   import { onMount } from "svelte";
   import "$lib/global.css";
+  let scroll;
   const collections = [
     {
       name: "GT Challenge COTA 2023",
@@ -51,10 +52,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </svelte:head>
 
-<main
-  class="bg-cover bg-center"
-  style="background-image: url('/images/portfoliobg.avif');"
->
+<main>
+  <div
+    class="bg-cover bg-center background pin"
+    style="background-image: url('/images/portfoliobg.avif');"
+    style:transform={`translate3d(0, ${scroll * 2}px, 0)`}
+  />
   <nav
     class="bg-opacity-75 text-white p-4 absolute top-0 w-full flex justify-center items-center"
   >
@@ -135,3 +138,18 @@
     &copy; {year} Zach Niederstadt. All rights reserved.
   </p>
 </main>
+
+<style>
+  h1 {
+    position: fixed;
+    z-index: 10;
+  }
+  .background {
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+  }
+  .pin {
+    position: fixed;
+  }
+</style>

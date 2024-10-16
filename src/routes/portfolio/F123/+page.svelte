@@ -128,3 +128,6 @@
         &copy; {year} Zach Niederstadt. All rights reserved.
     </footer>
 </div>
+
+<style>
+</style>
