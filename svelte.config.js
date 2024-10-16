@@ -6,8 +6,9 @@ export default {
 			// See below for an explanation of these options
 			routes: {
 				include: ['/*'],
-				exclude: ['<all>']
-			}
+				exclude: ['<all>'],
+			},
+
 		})
 	}
 };

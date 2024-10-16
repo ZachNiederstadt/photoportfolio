@@ -91,10 +91,11 @@
 					there and playing, I'll play almost any sport if you ask. I also
 					played a year of college baseball and was a part of a Porsche Esports
 					challenge event with Gran Turismo 7 (from the picture above with the
-					creator). I really enjoy how sports constantly force me to push myself
-					to learn and improve more, while having a healthy space for my
-					competitive side. I also just love nature and expoloring this world we
-					call home as well.
+					creator). As along with sports, I definitely love video games too. I
+					really enjoy how they both constantly force me to push myself to learn
+					and improve more, while also being a healthy space for my competitive
+					side. I also just love nature and expoloring this world we call home
+					as well.
 				</p>
 				<p
 					class="flex justify-center text-[10px] text-white leading-relaxed pb- pt-2 tracking-widest"

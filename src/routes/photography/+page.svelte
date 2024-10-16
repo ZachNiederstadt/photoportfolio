@@ -27,7 +27,7 @@
     <a class="nav-link mr-5" href="/about" style="color: white;">About</a>
     <a
       class="navbar-brand text-4xl font-semibold font-orbitron"
-      href="/"
+      href="/photography"
       style=" color: white;">ZN</a
     >
     <a class="nav-link ml-5" href="/portfolio" style="color: white;"
@@ -35,8 +35,8 @@
     >
   </nav>
 
-  <header
-    class="bg-cover bg-center min-h-screen flex flex-col justify-top pt-[7%] items-center"
+  <div
+    class="bg-cover bg-center min-h-screen flex flex-col justify-top justify-between pt-[7%] items-center lg:pt-13"
   >
     <div class="container mx-auto text-center pt-12 md:pt-5 lg:pt-2 xl:pt-0">
       <h1 class="text-3xl font-bold font-orbitron text-white tracking-wider">
@@ -59,27 +59,29 @@
         </a>
       </div>
     </div>
-    <div class="flex justify-center gap-4" style="margin-top:25rem">
-      <a
-        href="https://www.instagram.com/niederdrifts/"
-        class="bg-blue-900 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-600 hover:text-blue-800"
-        style=""
-      >
-        Instagram
-      </a>
-      <a
-        href="https://www.youtube.com/niederdrifts/"
-        class="bg-blue-900 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-600 hover:text-blue-800"
-        style=""
-      >
-        YouTube
-      </a>
-    </div>
-  </header>
-  <div class="mt--3">
-    <p class="text-white text-center py-3" style="margin-top:-3rem">
-      &copy; {year} Zach Niederstadt. All rights reserved.
-    </p>
+    <footer class="sticky mb-0">
+      <div class="flex justify-center gap-10 pb- mb-5" style="">
+        <a
+          href="https://www.instagram.com/niederdrifts/"
+          class="bg-blue-900 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-600 hover:text-blue-800"
+          style=""
+        >
+          Instagram
+        </a>
+        <a
+          href="https://www.youtube.com/niederdrifts/"
+          class="bg-blue-900 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-600 hover:text-blue-800"
+          style=""
+        >
+          YouTube
+        </a>
+      </div>
+      <div class="mt--3">
+        <p class="text-white text-center py-3 pt-12" style="">
+          &copy; {year} Zach Niederstadt. All rights reserved.
+        </p>
+      </div>
+    </footer>
   </div>
 </main>
 
