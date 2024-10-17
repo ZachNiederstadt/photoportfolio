@@ -53,13 +53,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </svelte:head>
 
-<main>
-  <div
-    class="bg-cover bg-center background pin"
-    style="background-image: url('/images/portfoliobg.avif');"
-    out:fade
-    in:fade
-  />
+<main
+  class="bg-cover bg-center content-center background"
+  style="background-image: url('/images/portfoliobg.avif');"
+  out:fade
+  in:fade
+>
+  <div />
   <nav
     class="bg-opacity-75 text-white p-4 absolute top-0 w-full flex justify-center items-center content-center"
   >
@@ -145,4 +145,12 @@
 </main>
 
 <style>
+  .background {
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+  }
+  .pin {
+    position: fixed;
+  }
 </style>
