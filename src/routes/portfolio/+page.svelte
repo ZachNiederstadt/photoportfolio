@@ -57,7 +57,7 @@
   <main
     class="bg-cover bg-center content-center background"
     style="background-image: url('/images/portfoliobg.avif'); "
-    in:fade
+    transition:fade={{ duration: 300 }}
   >
     <div class="body">
       <nav
