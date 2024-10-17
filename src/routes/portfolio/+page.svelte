@@ -58,6 +58,7 @@
     class="bg-cover bg-center background pin"
     style="background-image: url('/images/portfoliobg.avif');"
     out:fade
+    in:fade
   />
   <nav
     class="bg-opacity-75 text-white p-4 absolute top-0 w-full flex justify-center items-center content-center"
@@ -72,10 +73,10 @@
     >
   </nav>
 
-  <div class="pt-10 pr-5 pl-5" out:slide in:slide>
+  <div class="pt-10 pr-5 pl-5" out:slide>
     <div
       class="container mx-auto grid lg:grid-cols-3 gap-4 min-h-screen"
-      in:slide
+      in:fade
     >
       <div class="col-md-4" style="margin-top: 30px;">
         <div

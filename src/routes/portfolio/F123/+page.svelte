@@ -113,7 +113,7 @@
                 class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-2"
             >
                 {#each collections[0].images as image, index}
-                    <div class="content-center" in:slide out:fade>
+                    <div class="content-center" in:slide>
                         <img
                             src={image}
                             alt={`Image ${index + 1}`}
