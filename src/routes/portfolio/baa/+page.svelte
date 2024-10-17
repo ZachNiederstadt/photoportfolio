@@ -6,10 +6,17 @@
     let collections = [
         {
             name: "F1 2023",
-            images: ["/images/baa/image-1.avif", "/images/baa/image-2.avif"],
+            images: [
+                "/images/baa/image-1.avif",
+                "/images/baa/image-2.avif",
+                "/images/baa/image-3.avif",
+                "/images/baa/image-4.avif",
+                "/images/baa/image-5.avif",
+                "/images/baa/image-6.avif",
+            ],
         },
     ];
-    let backgroundImage = "";
+    //let backgroundImage = "";
     let fullscreen = false;
     let imgElement;
 
@@ -17,11 +24,11 @@
         const randomIndex = Math.floor(
             Math.random() * collections[0].images.length,
         );
-        backgroundImage = `url('${collections[0].images[randomIndex]}')`;
+        //  backgroundImage = `url('${collections[0].images[randomIndex]}')`;
 
-        document.body.style.backgroundImage = backgroundImage;
-        document.body.style.backgroundSize = "cover";
-        document.body.style.backgroundRepeat = "no-repeat";
+        //  document.body.style.backgroundImage = backgroundImage;
+        //   document.body.style.backgroundSize = "auto";
+        //  document.body.style.backgroundRepeat = "no-repeat";
     });
     const year = new Date().getFullYear();
     function toggleFullScreen(imageUrl) {
@@ -32,9 +39,10 @@
             imgElement.style.top = "0";
             imgElement.style.left = "0";
             imgElement.style.width = "100%";
-            imgElement.style.height = "100%";
+            imgElement.style.height = "100vh";
             imgElement.style.zIndex = "9999";
             imgElement.style.cursor = "zoom-out";
+            imgElement.style.height = "100vh";
             imgElement.addEventListener("click", exitFullScreen);
 
             document.body.appendChild(imgElement);
@@ -70,54 +78,71 @@
     <meta property="og:image" content="/images/_DSC2618.avif" />
 </svelte:head>
 
-<div out:fade>
-    <nav
-        class="bg-opacity-75 text-white p-4 absolute top-0 w-full flex justify-center items-center content-center"
-    >
-        <a class="nav-link mr-5 other" href="/about" style="color: white;"
-            >About</a
+<div class="background" out:fade>
+    <div class="content">
+        <nav
+            class="bg-opacity-75 text-white p-4 absolute top-0 w-full flex justify-center items-center content-center"
         >
-        <a
-            class="navbar-brand text-4xl font-semibold font-orbitron text tracking-wider"
-            href="/photography">ZN</a
-        >
-        <a class="nav-link ml-5 other" href="/portfolio" style="color: white;"
-            >Portfolio</a
-        >
-    </nav>
+            <a class="nav-link mr-5 other" href="/about" style="color: white;"
+                >About</a
+            >
+            <a
+                class="navbar-brand text-4xl font-semibold font-orbitron text tracking-wider"
+                href="/photography">ZN</a
+            >
+            <a
+                class="nav-link ml-5 other"
+                href="/portfolio"
+                style="color: white;">Portfolio</a
+            >
+        </nav>
 
-    <section id="portfolio" class="py-5">
-        <div class="container mx-auto mt-20 text-center">
-            <h1
-                class="text-5xl font-bold text-white mb-4 font-orbitron tracking-wider"
-                transition:fly={{ x: -50, duration: 700 }}
-            >
-                F1 COTA 2023
-            </h1>
-            <p class="text-md font-semibold text-white mb-8 pl-2 pr-2">
-                My view from the Legendary Cota S section
-            </p>
-            <div
-                class="grid grid-cols-3 xs:grid-cols-2 lg:grid-cols-2 gap-4 p-2"
-            >
-                {#each collections[0].images as image, index}
-                    <div class="content-center">
-                        <img
-                            src={image}
-                            alt={`Image ${index + 1}`}
-                            class="w-full h-auto cursor-pointer shadow-sm"
-                            on:click={() => toggleFullScreen(image)}
-                        />
-                    </div>
-                {/each}
+        <section id="portfolio" class="py-5">
+            <div class="container mx-auto mt-20 text-center">
+                <h1
+                    class="text-5xl font-bold text-white mb-4 font-orbitron tracking-wider"
+                    transition:fly={{ x: -50, duration: 700 }}
+                >
+                    Before and Afters
+                </h1>
+                <p class="text-md font-semibold text-white mb-8 pl-2 pr-2">
+                    Before and afters of some of my most changed edits
+                </p>
+                <div
+                    class="grid grid-cols-2 xs:grid-cols-2 lg:grid-cols-2 gap-4 p-2"
+                >
+                    {#each collections[0].images as image, index}
+                        <div class="content-center">
+                            <img
+                                src={image}
+                                alt={`Image ${index + 1}`}
+                                class="w-full h-auto cursor-pointer shadow-sm"
+                                on:click={() => toggleFullScreen(image)}
+                            />
+                        </div>
+                    {/each}
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <footer class="text-white text-center py-3">
-        &copy; {year} Zach Niederstadt. All rights reserved.
-    </footer>
+        <footer class="text-white text-center py-12">
+            &copy; {year} Zach Niederstadt. All rights reserved.
+        </footer>
+    </div>
 </div>
 
 <style>
+    .background {
+        height: 100vh;
+        background-image: linear-gradient(
+            to bottom,
+            rgb(10, 10, 10),
+            rgb(50, 50, 50)
+        );
+    }
+    .content {
+        height: 100vh;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
 </style>
