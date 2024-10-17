@@ -79,7 +79,7 @@
 </svelte:head>
 
 <div class="background" out:fade>
-    <div class="content p-5">
+    <div class="content">
         <nav
             class="bg-opacity-75 text-white p-4 absolute top-0 w-full flex justify-center items-center content-center"
         >
@@ -97,7 +97,7 @@
             >
         </nav>
 
-        <section id="portfolio" class="py-5">
+        <section id="portfolio" class="p-5">
             <div class="container mx-auto mt-20 text-center">
                 <h1
                     class="text-5xl font-bold text-white mb-4 font-orbitron tracking-wider"
