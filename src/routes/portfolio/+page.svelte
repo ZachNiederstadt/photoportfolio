@@ -54,8 +54,8 @@
 </svelte:head>
 
 <main
-  class="bg-cover bg-center content-center background"
-  style="background-image: url('/images/portfoliobg.avif'); background-attachment: fixed;"
+  class="bg-cover bg-center content-center background bg-fixed"
+  style="background-image: url('/images/portfoliobg.avif'); "
   in:fade
 >
   <div />
@@ -145,8 +145,5 @@
     height: 100%;
     width: 100%;
     z-index: -10;
-  }
-  .pin {
-    position: fixed;
   }
 </style>
