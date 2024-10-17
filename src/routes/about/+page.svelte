@@ -1,6 +1,6 @@
 <script>
 	import "$lib/global.css";
-	import { fade } from "svelte/transition";
+	import { fade, slide, fly } from "svelte/transition";
 	const year = new Date().getFullYear();
 </script>
 
@@ -17,9 +17,8 @@
 </svelte:head>
 
 <main
-	class="bg-cover bg-center content-center"
+	class="bg-cover bg-center content-center background"
 	style="background-image: url('/images/profilebg.avif');"
-	in:fade
 >
 	<nav
 		class="bg-opacity-75 text-white p-4 absolute top-0 w-full flex justify-center items-center"
@@ -37,10 +36,15 @@
 	<header
 		class="bg-cover bg-center min-h-screen flex flex-col justify-center items-center pt-10 pb-10 pr-5 pl-5"
 	>
-		<div class="container mx-auto text-center tracking-tight">
+		<div
+			class="container mx-auto text-center tracking-tight"
+			transition:fly={{ x: -20, duration: 700 }}
+		>
 			<br />
 			<div
-				class="bg-stone-900 bg-opacity-70 rounded-lg p-8 shadow-2xl max-w-3xl mx-auto"
+				class="bg-stone-900 bg-opacity-70 rounded-lg p-8 shadow-2xl max-w-3xl mx-auto
+				"
+				transition:fade={{ duration: 700 }}
 			>
 				<div class="flex justify-center pb-5">
 					<figure>
