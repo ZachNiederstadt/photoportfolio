@@ -103,7 +103,7 @@
     <meta property="og:image" content="" />
 </svelte:head>
 
-<div in:fade>
+<div in:fade out:fade>
     <nav
         class="bg-opacity-75 text-white p-4 absolute top-0 w-full flex justify-center items-center content-center"
     >
