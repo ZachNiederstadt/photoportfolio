@@ -55,7 +55,7 @@
 
 <main
   class="bg-cover bg-center content-center background"
-  style="background-image: url('/images/portfoliobg.avif');"
+  style="background-image: url('/images/portfoliobg.avif'); background-attachment: fixed;"
   in:fade
 >
   <div />
