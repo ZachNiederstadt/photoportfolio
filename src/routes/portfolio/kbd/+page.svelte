@@ -1,7 +1,7 @@
 <script>
     import "$lib/global.css";
     import { onMount } from "svelte";
-    import { fade, slide } from "svelte/transition";
+    import { fade, slide, fly } from "svelte/transition";
 
     let collections = [
         {
@@ -123,6 +123,7 @@
         <div class="container mx-auto mt-20 text-center">
             <h1
                 class="text-5xl font-bold text-white mb-4 pl-2 pr-2 tracking-wider font-orbitron"
+                transition:fly={{ x: -50, duration: 700 }}
             >
                 KBD Drift Event
             </h1>

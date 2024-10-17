@@ -1,7 +1,7 @@
 <script>
     import "$lib/global.css";
     import { onMount } from "svelte";
-    import { fade, slide } from "svelte/transition";
+    import { fade, slide, fly } from "svelte/transition";
 
     let collections = [
         {
@@ -110,6 +110,7 @@
         <div class="container mx-auto mt-20 text-center">
             <h1
                 class="text-3xl font-bold text-white mb-4 pl-2 pr-2 font-orbitron tracking-wider"
+                transition:fly={{ x: -50, duration: 700 }}
             >
                 GT Challenge COTA 2023
             </h1>
@@ -120,7 +121,7 @@
                 class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-2"
             >
                 {#each collections[0].images as image, index}
-                    <div class="content-center" in:slide out:fade>
+                    <div class="content-center" out:fade>
                         <img
                             src={image}
                             alt={`Image ${index + 1}`}

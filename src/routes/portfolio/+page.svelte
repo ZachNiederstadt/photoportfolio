@@ -56,7 +56,6 @@
 <main
   class="bg-cover bg-center content-center background"
   style="background-image: url('/images/portfoliobg.avif');"
-  out:fade
   in:fade
 >
   <div />
@@ -73,7 +72,7 @@
     >
   </nav>
 
-  <div class="pt-10 pr-5 pl-5" transition:fade={{ duration: 1500 }}>
+  <div class="pt-10 pr-5 pl-5" transition:fade={{ duration: 300 }}>
     <div class="container mx-auto grid lg:grid-cols-3 gap-4 min-h-screen">
       <div class="col-md-4" style="margin-top: 30px;">
         <div

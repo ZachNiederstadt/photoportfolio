@@ -83,7 +83,7 @@
     <meta property="og:image" content="/images/_DSC2618.avif" />
 </svelte:head>
 
-<div in:fade out:fade>
+<div out:fade>
     <nav
         class="bg-opacity-75 text-white p-4 absolute top-0 w-full flex justify-center items-center content-center"
     >
@@ -103,7 +103,7 @@
         <div class="container mx-auto mt-20 text-center">
             <h1
                 class="text-5xl font-bold text-white mb-4 font-orbitron tracking-wider"
-                transition:fly={{ x: -50, duration: 3000 }}
+                transition:fly={{ x: -50, duration: 700 }}
             >
                 F1 COTA 2023
             </h1>
@@ -114,7 +114,7 @@
                 class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-2"
             >
                 {#each collections[0].images as image, index}
-                    <div class="content-center" in:slide>
+                    <div class="content-center">
                         <img
                             src={image}
                             alt={`Image ${index + 1}`}
