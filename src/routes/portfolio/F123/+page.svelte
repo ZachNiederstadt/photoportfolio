@@ -1,7 +1,7 @@
 <script>
     import "$lib/global.css";
     import { onMount } from "svelte";
-    import { fade, slide } from "svelte/transition";
+    import { fade, slide, fly } from "svelte/transition";
     //import { Fullscreen } from "$lib/cmp/fullscreen";
     let collections = [
         {
@@ -103,6 +103,7 @@
         <div class="container mx-auto mt-20 text-center">
             <h1
                 class="text-5xl font-bold text-white mb-4 font-orbitron tracking-wider"
+                transition:fly={{ x: -50, duration: 3000 }}
             >
                 F1 COTA 2023
             </h1>

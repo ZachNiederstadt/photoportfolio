@@ -21,8 +21,9 @@
 <main
   class="bg-cover bg-center content-center"
   style="background-image: url('/images/test.avif');"
-  in:fade
+  transition:fade={{ duration: 2000 }}
 >
+  >
   <nav
     class="bg-opacity-75 text-white p-4 absolute top-0 w-full flex justify-center items-center"
   >
