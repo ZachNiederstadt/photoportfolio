@@ -90,7 +90,7 @@
     <meta property="og:image" content="/images/_DSC2618.avif" />
 </svelte:head>
 
-<div in:fade>
+<div in:fade out:fade>
     <nav
         class="bg-opacity-75 text-white p-4 absolute top-0 w-full flex justify-center items-center content-center"
     >
@@ -118,10 +118,9 @@
             </p>
             <div
                 class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-2"
-                in:slide
             >
                 {#each collections[0].images as image, index}
-                    <div class="content-center">
+                    <div class="content-center" in:slide out:fade>
                         <img
                             src={image}
                             alt={`Image ${index + 1}`}
