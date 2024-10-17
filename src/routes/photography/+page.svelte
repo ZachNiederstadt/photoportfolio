@@ -1,6 +1,7 @@
 <script>
   import "$lib/global.css";
   import { fade, slide } from "svelte/transition";
+  import { inject } from "@vercel/analytics";
 
   const year = new Date().getFullYear();
 </script>
