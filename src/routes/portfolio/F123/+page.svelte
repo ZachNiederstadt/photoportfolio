@@ -1,6 +1,7 @@
 <script>
     import "$lib/global.css";
     import { onMount } from "svelte";
+    import { fade, slide } from "svelte/transition";
     //import { Fullscreen } from "$lib/cmp/fullscreen";
     let collections = [
         {
@@ -82,17 +83,18 @@
     <meta property="og:image" content="/images/_DSC2618.avif" />
 </svelte:head>
 
-<div>
+<div in:fade out:fade>
     <nav
-        class="bg-opacity-75 text-white p-4 absolute top-0 w-full flex justify-center items-center"
+        class="bg-opacity-75 text-white p-4 absolute top-0 w-full flex justify-center items-center content-center"
     >
-        <a class="nav-link mr-5" href="/about" style="color: white;">About</a>
-        <a
-            class="navbar-brand text-4xl font-orbitron font-semibold"
-            href="/photography"
-            style="color: white;">ZN</a
+        <a class="nav-link mr-5 other" href="/about" style="color: white;"
+            >About</a
         >
-        <a class="nav-link ml-5" href="/portfolio" style="color: white;"
+        <a
+            class="navbar-brand text-4xl font-semibold font-orbitron text tracking-wider"
+            href="/photography">ZN</a
+        >
+        <a class="nav-link ml-5 other" href="/portfolio" style="color: white;"
             >Portfolio</a
         >
     </nav>
@@ -111,7 +113,7 @@
                 class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-2"
             >
                 {#each collections[0].images as image, index}
-                    <div class="content-center">
+                    <div class="content-center" in:slide out:fade>
                         <img
                             src={image}
                             alt={`Image ${index + 1}`}

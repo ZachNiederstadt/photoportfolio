@@ -1,5 +1,6 @@
 <script>
 	import "$lib/global.css";
+	import { fade } from "svelte/transition";
 	const year = new Date().getFullYear();
 </script>
 
@@ -16,18 +17,19 @@
 </svelte:head>
 
 <main
-	class="bg-cover bg-center"
+	class="bg-cover bg-center content-center"
 	style="background-image: url('/images/profilebg.avif');"
+	in:fade
 >
 	<nav
 		class="bg-opacity-75 text-white p-4 absolute top-0 w-full flex justify-center items-center"
 	>
-		<a class="nav-link mr-5" href="/about" style="color: white;">About</a>
+		<a class="nav-link mr-5 other" href="/about" style="color: white;">About</a>
 		<a
-			class="navbar-brand text-4xl font-semibold font-orbitron"
+			class="navbar-brand text-4xl font-semibold font-orbitron text tracking-wider"
 			href="/photography">ZN</a
 		>
-		<a class="nav-link ml-5" href="/portfolio" style="color: white;"
+		<a class="nav-link ml-5 other" href="/portfolio" style="color: white;"
 			>Portfolio</a
 		>
 	</nav>
@@ -109,6 +111,23 @@
 					>Kazunori Yamauchi</a
 				>
 			</div>
+			<div class="flex justify-center gap-4 pt-5 mb-0" style="">
+				<a
+					href="https://www.instagram.com/niederdrifts/"
+					class="bg-blue-900 text-white font-semibold py-3 w-[95px] flex justify-center
+           rounded-lg shadow-md hover:bg-blue-600 hover:text-blue-800 h-[40px] flex justify-center items-center"
+					style=""
+				>
+					Instagram
+				</a>
+				<a
+					href="https://www.youtube.com/niederdrifts/"
+					class="bg-blue-900 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-600 hover:text-blue-800 w-[95px] h-[40px] flex justify-center items-center"
+					style=""
+				>
+					YouTube
+				</a>
+			</div>
 			<br />
 		</div>
 	</header>
@@ -116,3 +135,12 @@
 		&copy; {year} Zach Niederstadt. All rights reserved.
 	</p>
 </main>
+
+<style>
+	.text {
+		text-shadow: 3px 3px 9px silver;
+	}
+	.other {
+		text-shadow: 1.8px 1.8px 5px silver;
+	}
+</style>

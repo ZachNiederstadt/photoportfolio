@@ -15,7 +15,7 @@
 ></div>
 
 <div
-  class="flex items-center justify-center min-h-screen px-4 py-12 bg-black bg-opacity-50"
+  class="flex items-center justify-center min-h-screen max-w-screen px-4 py-12 bg-black bg-opacity-50"
   transition:fade={{ duration: 250 }}
 >
   <div class="text-center max-w-3xl w-full">
@@ -29,10 +29,10 @@
     >
       Check out my work
     </p>
-    <div class="flex justify-center gap-4 mb-12">
+    <div class="flex justify-center gap-2 mb-12">
       <a
         href="/photography"
-        class="bg-blue-900 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-600 transition duration-300 hover:text-blue-800"
+        class="bg-blue-900 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-600 transition duration-300 hover:text-blue-800 w-[110px] h-[40px] flex justify-center items-center"
         transition:fade={{ duration: 250 }}
       >
         Photography
@@ -40,7 +40,7 @@
       <a
         href="https://github.com/ZachNiederstadt"
         target="_blank"
-        class="bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-400 transition duration-300 hover:text-blue-500"
+        class="bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-400 transition duration-300 hover:text-blue-500 w-[110px] h-[40px] flex justify-center items-center"
         transition:fade={{ duration: 250 }}
       >
         Github
@@ -48,18 +48,10 @@
       <a
         href="https://docs.google.com/document/d/1rVgljEEaeOdQa3Y7yF_dapNw2Kt7qeqOZVkeqAEnwkA/edit?usp=sharing"
         target="_blank"
-        class="bg-blue-300 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-100 hover:text-blue-400 transition duration-300"
+        class=" bg-blue-300 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-100 hover:text-blue-400 transition duration-300 w-[110px] h-[40px] flex justify-center items-center"
         transition:fade={{ duration: 250 }}
       >
         Resume
-      </a>
-      <a
-        href="https://www.instagram.com/niederdrifts/"
-        target="_blank"
-        class="bg-blue-100 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-white hover:text-blue-300 transition duration-300"
-        transition:fade={{ duration: 250 }}
-      >
-        Instagram
       </a>
     </div>
   </div>

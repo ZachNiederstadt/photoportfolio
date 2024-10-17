@@ -1,7 +1,8 @@
 <script>
+  //Make background fade in
   import { onMount } from "svelte";
   import "$lib/global.css";
-  let scroll;
+  import { fade, slide } from "svelte/transition";
   const collections = [
     {
       name: "GT Challenge COTA 2023",
@@ -56,23 +57,26 @@
   <div
     class="bg-cover bg-center background pin"
     style="background-image: url('/images/portfoliobg.avif');"
+    out:fade
   />
   <nav
-    class="bg-opacity-75 text-white p-4 absolute top-0 w-full flex justify-center items-center"
+    class="bg-opacity-75 text-white p-4 absolute top-0 w-full flex justify-center items-center content-center"
   >
-    <a class="nav-link mr-5" href="/about" style="color: white;">About</a>
+    <a class="nav-link mr-5 other" href="/about" style="color: white;">About</a>
     <a
-      class="navbar-brand font-semibold text-4xl font-orbitron"
-      href="/photography"
-      style="color: white;">ZN</a
+      class="navbar-brand text-4xl font-semibold font-orbitron text tracking-wider"
+      href="/photography">ZN</a
     >
-    <a class="nav-link ml-5" href="/portfolio" style="color: white;"
+    <a class="nav-link ml-5 other" href="/portfolio" style="color: white;"
       >Portfolio</a
     >
   </nav>
 
-  <div class="pt-10 pr-5 pl-5">
-    <div class="container mx-auto grid lg:grid-cols-3 gap-4 min-h-screen">
+  <div class="pt-10 pr-5 pl-5" out:slide in:slide>
+    <div
+      class="container mx-auto grid lg:grid-cols-3 gap-4 min-h-screen"
+      in:slide
+    >
       <div class="col-md-4" style="margin-top: 30px;">
         <div
           class="bg-black rounded-lg overflow-hidden shadow-md"
@@ -132,17 +136,14 @@
       </div>
     </div>
   </div>
-
-  <p class="text-white text-center py-3 pt-2">
-    &copy; {year} Zach Niederstadt. All rights reserved.
-  </p>
+  <div out:slide>
+    <p class="text-white text-center py-3 pt-2" out:fade in:fade>
+      &copy; {year} Zach Niederstadt. All rights reserved.
+    </p>
+  </div>
 </main>
 
 <style>
-  h1 {
-    position: fixed;
-    z-index: 10;
-  }
   .background {
     height: 100%;
     width: 100%;
