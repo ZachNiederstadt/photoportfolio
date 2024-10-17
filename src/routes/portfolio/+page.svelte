@@ -54,7 +54,7 @@
 </svelte:head>
 
 <main
-  class="bg-cover bg-center content-center background bg-fixed"
+  class="bg-cover bg-center content-center bg-fixed"
   style="background-image: url('/images/portfoliobg.avif'); "
   in:fade
 >
@@ -141,9 +141,4 @@
 </main>
 
 <style>
-  .background {
-    height: 100%;
-    width: 100%;
-    z-index: -10;
-  }
 </style>
