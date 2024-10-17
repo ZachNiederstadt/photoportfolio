@@ -79,7 +79,7 @@
 </svelte:head>
 
 <div class="background" out:fade>
-    <div class="content">
+    <div class="content p-5">
         <nav
             class="bg-opacity-75 text-white p-4 absolute top-0 w-full flex justify-center items-center content-center"
         >
