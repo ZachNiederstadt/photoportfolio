@@ -25,7 +25,9 @@
       transition:fade={{ duration: 250 }}
     >
       <div class="text-center max-w-3xl w-full">
-        <h1 class="text-4xl sm:text-5xl font-extrabold text-white mb-0">
+        <h1
+          class="text-4xl sm:text-5xl font-extrabold text-white mb-0 font-orbitron"
+        >
           Welcome!
         </h1>
 
