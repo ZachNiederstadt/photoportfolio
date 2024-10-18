@@ -35,6 +35,7 @@
           class="btn btn-primary btn-lg mt-4 px-8 py-2 text-white font-orbitron text-sm tracking-widest font-semibold rounded-full bg-blue-600 hover:bg-blue-400 transition duration-300 ease-in-out"
           style=""
           href="photography"
+          target="_blank"
         >
           Photography
         </a>
@@ -44,6 +45,7 @@
           class="btn btn-primary btn-lg mt-4 px-8 py-2 text-white font-orbitron text-sm tracking-widest font-semibold rounded-full bg-blue-600 hover:bg-blue-400 transition duration-300 ease-in-out"
           style="color: white"
           href="/socials"
+          target="_blank"
         >
           Socials
         </a>
