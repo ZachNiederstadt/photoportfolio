@@ -25,20 +25,30 @@
       </h1>
 
       <p
-        class="text-base sm:text-lg text-white mb-8 sm:mb-6 pt-5"
+        class="text-base sm:text-lg text-white mb-8 sm:mb-7 pt-5"
         transition:fade={{ duration: 250 }}
       >
         Check out my work
       </p>
-      <div class="flex justify-center gap-2 mb-12">
+      <div class="pt-5" out:slide>
         <a
-          href="/photography"
-          class="bg-blue-900 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-600 transition duration-300 hover:text-blue-800 w-[110px] h-[40px] flex justify-center items-center"
-          transition:fade={{ duration: 250 }}
+          class="btn btn-primary btn-lg mt-4 px-8 py-2 text-white font-orbitron text-sm tracking-widest font-semibold rounded-full bg-blue-600 hover:bg-blue-400 transition duration-300 ease-in-out"
+          style=""
+          href="photography"
         >
           Photography
         </a>
+      </div>
+      <div class="pt-7" out:slide>
         <a
+          class="btn btn-primary btn-lg mt-4 px-8 py-2 text-white font-orbitron text-sm tracking-widest font-semibold rounded-full bg-blue-600 hover:bg-blue-400 transition duration-300 ease-in-out"
+          style="color: white"
+          href="/socials"
+        >
+          Socials
+        </a>
+      </div>
+      <!-- <a
           href="https://github.com/ZachNiederstadt"
           target="_blank"
           class="bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-400 transition duration-300 hover:text-blue-500 w-[110px] h-[40px] flex justify-center items-center"
@@ -53,8 +63,7 @@
           transition:fade={{ duration: 250 }}
         >
           Resume
-        </a>
-      </div>
+        </a> -->
     </div>
   </div>
 </div>

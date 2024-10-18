@@ -30,7 +30,7 @@
     <a class="nav-link mr-5 other" href="/about" style="color: white;">About</a>
     <a
       class="navbar-brand text-4xl font-semibold font-orbitron text tracking-wider"
-      href="/photography">ZN</a
+      href="/">ZN</a
     >
     <a class="nav-link ml-5 other" href="/portfolio" style="color: white;"
       >Portfolio</a
