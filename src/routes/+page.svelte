@@ -15,12 +15,13 @@
   style="background-image: url('/images/welcome.avif');"
 >
   <div
-    class="flex items-center justify-center inset-0 bg-gradient-to-r from-transparent via-blue-950 bg-[length:1200%_1200%] animate-gradient-animate z-[-1] h-dvh"
+    class="flex items-center justify-center inset-0 z-[-1] h-dvh"
     transition:fade={{ duration: 250 }}
   >
+    <!--bg-gradient-to-r from-transparent via-blue-950 bg-[length:20000%_50%] animate-gradient-animate -->
     <!-- contents welcome etc...does not need a height -->
     <div
-      class="m-auto flex px-4 py-12 bg-opacity-50"
+      class="m-auto flex px-4 py-12 bg-opacity-100"
       transition:fade={{ duration: 250 }}
     >
       <div class="text-center max-w-3xl w-full">
@@ -36,7 +37,7 @@
         </p>
         <div class="pt-20" out:slide>
           <a
-            class="btn mt-5 px-7 py-3 text-white font-orbitron text-sm tracking-widest font-semibold rounded-full bg-blue-600 hover:bg-blue-400 transition duration-300 ease-in-out"
+            class="btn mt-5 px-7 py-3 text-white font-orbitron text-sm tracking-widest font-semibold rounded-full bg-blue-950 hover:bg-blue-400 transition duration-300 ease-in-out"
             style=""
             href="photography"
             target="_blank"
@@ -46,7 +47,7 @@
         </div>
         <div class="pt-8" out:slide>
           <a
-            class="btn mt-5 px-8 py-3 text-white font-orbitron text-sm tracking-widest font-semibold rounded-full bg-blue-600 hover:bg-blue-400 transition duration-300 ease-in-out"
+            class="btn mt-5 px-8 py-3 text-white font-orbitron text-sm tracking-widest font-semibold rounded-full bg-blue-950 hover:bg-blue-400 transition duration-300 ease-in-out"
             style="color: white"
             href="/socials"
             target="_blank"
