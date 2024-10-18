@@ -10,12 +10,12 @@
 </svelte:head>
 
 <div
-  class="absolute inset-0 bg-gradient-to-r from-transparent via-blue-400 to-blue-950 bg-[length:1200%_1200%] animate-gradient-animate z-[-1]"
+  class="absolute inset-0 bg-gradient-to-r from-transparent via-blue-400 to-blue-950 bg-[length:1200%_1200%] animate-gradient-animate z-[-1] background"
   transition:fade={{ duration: 250 }}
 ></div>
 
 <div
-  class="flex items-center justify-center min-h-screen max-w-screen px-4 py-12 bg-black bg-opacity-50"
+  class="flex items-center justify-center min-h-screen max-w-screen px-4 py-12 bg-black bg-opacity-50 body"
   transition:fade={{ duration: 250 }}
 >
   <div class="text-center max-w-3xl w-full">
@@ -59,6 +59,13 @@
 
 <!-- Tailwind CSS Custom Animation -->
 <style>
+  .body {
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+  .background {
+    height: 100vh;
+  }
   @keyframes gradientAnimation {
     0% {
       background-position: 0% 50%;
