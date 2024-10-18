@@ -55,7 +55,7 @@
 
 <div class="main">
   <main
-    class="bg-cover bg-center content-center background"
+    class="bg-cover bg-center content-center h-lvh"
     style="background-image: url('/images/portfoliobg.avif'); "
     transition:fade={{ duration: 300 }}
   >
@@ -138,7 +138,7 @@
       </div>
       <div class="pb-5 pr-5 pl-5" transition:fade={{ duration: 300 }}>
         <div class="container mx-auto gap-4">
-          <div class="col-md-4" style="margin-top: 30px;">
+          <div class="col-md-4 pb-10" style="margin-top: 30px;">
             <div
               class="bg-black rounded-lg overflow-hidden shadow-md"
               style="border: 5px solid"
@@ -159,20 +159,18 @@
           </div>
         </div>
       </div>
-    </div>
-    <div out:slide>
-      <p class="text-white text-center py-3 pt-2" out:fade in:fade>
-        &copy; {year} Zach Niederstadt. All rights reserved.
-      </p>
+
+      <div out:slide>
+        <p class="text-white text-center py-3 pt-2" out:fade in:fade>
+          &copy; {year} Zach Niederstadt. All rights reserved.
+        </p>
+      </div>
     </div>
   </main>
 </div>
 
 <style>
   .main {
-    height: 100vh;
-  }
-  .background {
     height: 100vh;
   }
   .body {
