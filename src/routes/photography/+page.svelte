@@ -37,13 +37,13 @@
     >
   </nav>
   <header
-    class="bg-cover bg-center min-h-screen flex flex-col justify-center items-center pt-5 pb-12 pr-5 pl-5"
+    class="bg-cover bg-center min-h-screen flex flex-col justify-center items-center pt-7 pb-12 pr-5 pl-5"
   >
     <div
-      class="bg-cover bg-center min-h-screen flex flex-col justify-top justify-between pt-[7%] items-center lg:pt-13"
+      class="bg-cover bg-center min-h-screen flex flex-col justify-top justify-between pt-[2%] items-center"
     >
       <div
-        class="container mx-auto text-center pt-12 sm:pt-8 md:pt-5 lg:pt-0 xl:pt-[-2]"
+        class="container mx-auto text-center pt-8 sm:pt-6 md:pt-8 lg:pt-5 xl:pt-5"
       >
         <h1
           class="text-3xl font-bold font-orbitron text-white tracking-wider"
@@ -58,6 +58,13 @@
           out:fade
         >
           Capturing life as it flies by.
+        </p>
+        <p
+          class="text-xs font-semibold text-white mt-1 tracking-widest"
+          style="color: white"
+          out:fade
+        >
+          Shot on Canon T1i
         </p>
         <br />
         <div class="pt-5 md:pt-0" out:slide>
