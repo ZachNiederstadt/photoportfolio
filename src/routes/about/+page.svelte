@@ -100,8 +100,8 @@
 					creator). As along with sports, I definitely love video games too. I
 					really enjoy how they both constantly force me to push myself to learn
 					and improve more, while also being a healthy space for my competitive
-					side. I also just love nature and expoloring this world we call home
-					as well.
+					side. Lastly, I love nature and expoloring this world we call home as
+					well.
 				</p>
 				<p
 					class="flex justify-center text-[10px] text-white leading-relaxed pb- pt-2 tracking-widest"
@@ -115,7 +115,7 @@
 					>Kazunori Yamauchi</a
 				>
 			</div>
-			<div class="flex justify-center gap-4 pt-5 mb-0" style="">
+			<!-- <div class="flex justify-center gap-4 pt-5 mb-0" style="">
 				<a
 					href="https://www.instagram.com/niederdrifts/"
 					class="bg-blue-900 text-white font-semibold py-3 w-[95px] flex justify-center
@@ -130,8 +130,8 @@
 					style=""
 				>
 					YouTube
-				</a>
-			</div>
+				</a> -->
+			<!-- </div> -->
 			<br />
 		</div>
 	</header>
