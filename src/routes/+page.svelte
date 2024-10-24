@@ -32,7 +32,7 @@
 
 <!-- whole page background -->
 <div
-  class="bg-cover bg-center h-dvh"
+  class="bg-cover bg-center"
   style="background-image: url({isPortrait
     ? '/images/welcome-portrait.avif'
     : '/images/welcome.avif'});"
@@ -89,7 +89,7 @@
     text-shadow: 1px 1px 3px black;
   }
   .scroll {
-    height: 100vh;
+    height: 100dvh;
     overflow: hidden;
     overflow-y: scroll;
   }
