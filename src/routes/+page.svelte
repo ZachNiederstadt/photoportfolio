@@ -32,13 +32,13 @@
 
 <!-- whole page background -->
 <div
-  class="bg-cover bg-center"
+  class="bg-cover bg-center h-dvh"
   style="background-image: url({isPortrait
     ? '/images/welcome-portrait.avif'
     : '/images/welcome.avif'});"
 >
   <div
-    class="flex items-center justify-center inset-0 z-[-1] h-dvh"
+    class="flex items-center justify-center inset-0 z-[-1] h-dvh scroll"
     transition:fade={{ duration: 250 }}
   >
     <div
@@ -88,7 +88,12 @@
   .check {
     text-shadow: 1px 1px 3px black;
   }
-  @keyframes gradientAnimation {
+  .scroll {
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+  /* @keyframes gradientAnimation {
     0% {
       background-position: 0% 50%;
     }
@@ -98,7 +103,7 @@
     100% {
       background-position: 0% 50%;
     }
-  }
+  } */
   /* .animate-gradient-animate {
     animation: gradientAnimation 20s ease infinite;
   } */
