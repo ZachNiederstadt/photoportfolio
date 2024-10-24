@@ -47,12 +47,12 @@
     >
       <div class="text-center max-w-3xl w-full">
         <h1
-          class="text-4xl sm:text-5xl font-extrabold text-white mb-0 font-orbitron"
+          class="text-4xl sm:text-5xl font-extrabold text-white mb-0 font-orbitron welcome"
         >
           Welcome!
         </h1>
         <p
-          class="text-base sm:text-lg text-white mb-8 sm:mb-7 pt-5 pb-20"
+          class="text-base sm:text-lg text-white mb-8 sm:mb-7 pt-5 pb-20 check"
           transition:fade={{ duration: 250 }}
         >
           Check out my work
@@ -82,6 +82,12 @@
 </div>
 
 <style>
+  .welcome {
+    text-shadow: 1px 1px 2px black;
+  }
+  .check {
+    text-shadow: 1px 1px 3px black;
+  }
   @keyframes gradientAnimation {
     0% {
       background-position: 0% 50%;
@@ -93,7 +99,7 @@
       background-position: 0% 50%;
     }
   }
-  .animate-gradient-animate {
+  /* .animate-gradient-animate {
     animation: gradientAnimation 20s ease infinite;
-  }
+  } */
 </style>
