@@ -1,6 +1,27 @@
 <script>
   import "$lib/global.css";
-  import { fade } from "svelte/transition";
+  import { fade, slide } from "svelte/transition";
+
+  // Create a reactive statement to handle screen orientation
+  let isPortrait = false;
+
+  if (typeof window !== "undefined") {
+    // Initial check
+    isPortrait =
+      window.matchMedia("(orientation: portrait)").matches ||
+      window.matchMedia("(max-width: 768px)").matches;
+
+    // Listen for changes
+    window
+      .matchMedia("(orientation: portrait)")
+      .addEventListener("change", (e) => {
+        isPortrait = e.matches;
+      });
+
+    window.matchMedia("(max-width: 768px)").addEventListener("change", (e) => {
+      isPortrait = e.matches;
+    });
+  }
 </script>
 
 <svelte:head>
@@ -12,14 +33,14 @@
 <!-- whole page background -->
 <div
   class="bg-cover bg-center"
-  style="background-image: url('/images/welcome.avif');"
+  style="background-image: url({isPortrait
+    ? '/images/welcome-portrait.avif'
+    : '/images/welcome.avif'});"
 >
   <div
     class="flex items-center justify-center inset-0 z-[-1] h-dvh"
     transition:fade={{ duration: 250 }}
   >
-    <!--bg-gradient-to-r from-transparent via-blue-950 bg-[length:20000%_50%] animate-gradient-animate -->
-    <!-- contents welcome etc...does not need a height -->
     <div
       class="m-auto flex px-4 py-12 bg-opacity-100"
       transition:fade={{ duration: 250 }}
@@ -30,7 +51,6 @@
         >
           Welcome!
         </h1>
-
         <p
           class="text-base sm:text-lg text-white mb-8 sm:mb-7 pt-5 pb-20"
           transition:fade={{ duration: 250 }}
@@ -40,7 +60,6 @@
         <div class="pt-20" out:slide>
           <a
             class="btn mt-5 px-7 py-3 text-white font-orbitron text-sm tracking-widest font-semibold rounded-full bg-blue-950 hover:bg-blue-400 transition duration-300 ease-in-out"
-            style=""
             href="photography"
             target="_blank"
           >
@@ -57,28 +76,11 @@
             Socials
           </a>
         </div>
-        <!-- <a
-          href="https://github.com/ZachNiederstadt"
-          target="_blank"
-          class="bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-400 transition duration-300 hover:text-blue-500 w-[110px] h-[40px] flex justify-center items-center"
-          transition:fade={{ duration: 250 }}
-        >
-          Github
-        </a>
-        <a
-          href="https://docs.google.com/document/d/1rVgljEEaeOdQa3Y7yF_dapNw2Kt7qeqOZVkeqAEnwkA/edit?usp=sharing"
-          target="_blank"
-          class=" bg-blue-300 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-100 hover:text-blue-400 transition duration-300 w-[110px] h-[40px] flex justify-center items-center"
-          transition:fade={{ duration: 250 }}
-        >
-          Resume
-        </a> -->
       </div>
     </div>
   </div>
 </div>
 
-<!-- Tailwind CSS Custom Animation -->
 <style>
   @keyframes gradientAnimation {
     0% {
@@ -91,7 +93,6 @@
       background-position: 0% 50%;
     }
   }
-
   .animate-gradient-animate {
     animation: gradientAnimation 20s ease infinite;
   }
