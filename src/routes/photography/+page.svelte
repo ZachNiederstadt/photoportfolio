@@ -4,6 +4,26 @@
   import { inject } from "@vercel/analytics";
 
   const year = new Date().getFullYear();
+  // Create a reactive statement to handle screen orientation
+  let isPortrait = false;
+
+  if (typeof window !== "undefined") {
+    // Initial check
+    isPortrait =
+      window.matchMedia("(orientation: portrait)").matches ||
+      window.matchMedia("(max-width: 768px)").matches;
+
+    // Listen for changes
+    window
+      .matchMedia("(orientation: portrait)")
+      .addEventListener("change", (e) => {
+        isPortrait = e.matches;
+      });
+
+    window.matchMedia("(max-width: 768px)").addEventListener("change", (e) => {
+      isPortrait = e.matches;
+    });
+  }
 </script>
 
 <svelte:head>
@@ -21,8 +41,9 @@
 
 <main
   class="bg-cover bg-center content-center"
-  style="background-image: url('/images/test.avif');"
-  transition:fade={{ duration: 300 }}
+  style="background-image: url({isPortrait
+    ? '/images/stl/image-05.avif'
+    : '/images/test.avif'});"
 >
   <nav
     class="bg-opacity-75 text-white p-4 absolute top-0 w-full flex justify-center items-center"
