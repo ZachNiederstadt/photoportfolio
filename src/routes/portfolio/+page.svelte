@@ -76,7 +76,7 @@
       </nav>
 
       <div class="pt-10 pr-5 pl-5 f" transition:fade={{ duration: 300 }}>
-        <div class="container mx-auto grid lg:grid-cols-3 gap-4">
+        <div class="container mx-auto grid lg:grid-cols-2 gap-4">
           <div class="col-md-4" style="margin-top: 30px;">
             <div
               class="bg-black rounded-lg overflow-hidden shadow-md"
@@ -110,7 +110,7 @@
                 <a
                   href="/portfolio/gtchallenge"
                   class="block bg-stone-800 text-white text-center py-2 rounded mt-2 hover:bg-stone-500 transition duration-300 ease-in-out font-orbitron"
-                  >GT Challenge</a
+                  >GT Challenge 2024</a
                 >
               </div>
             </div>
@@ -129,7 +129,26 @@
                 <a
                   href="/portfolio/kbd"
                   class="block bg-stone-800 text-white text-center py-2 rounded mt-2 hover:bg-stone-500 transition duration-300 ease-in-out font-orbitron"
-                  >KBD Drift Event</a
+                  >KBD Drift Event 2024</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pb-5" style="margin-top: 30px;">
+            <div
+              class="bg-black rounded-lg overflow-hidden shadow-md"
+              style="border: 5px solid"
+            >
+              <img
+                src="/images/stl/image-07.avif"
+                alt="gtchallenge"
+                class="w-full h-64 object-cover"
+              />
+              <div class="p-4">
+                <a
+                  href="/portfolio/stl"
+                  class="block bg-stone-800 text-white text-center py-2 rounded mt-2 hover:bg-stone-500 transition duration-300 ease-in-out font-orbitron"
+                  >STL Midnight Madness 2024</a
                 >
               </div>
             </div>
