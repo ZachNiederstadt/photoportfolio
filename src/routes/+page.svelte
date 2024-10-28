@@ -59,7 +59,7 @@
         </p>
         <div class="pt-20" out:slide>
           <a
-            class="btn mt-5 px-7 py-3 text-white font-orbitron text-sm tracking-widest font-semibold rounded-full bg-blue-950 hover:bg-blue-400 transition duration-300 ease-in-out"
+            class="btn mt-5 px-5 py-3 text-white font-orbitron text-sm tracking-widest font-semibold rounded-full bg-blue-950 hover:bg-blue-400 transition duration-300 ease-in-out"
             href="photography"
             target="_blank"
           >
@@ -74,6 +74,16 @@
             target="_blank"
           >
             Socials
+          </a>
+        </div>
+        <div class="pt-8" out:slide>
+          <a
+            class="btn mt-5 px-6 py-3 text-white font-orbitron text-sm tracking-widest font-semibold rounded-full bg-blue-950 hover:bg-blue-400 transition duration-300 ease-in-out"
+            style="color: white"
+            href="/contact"
+            target="_blank"
+          >
+            Contact Me
           </a>
         </div>
       </div>
