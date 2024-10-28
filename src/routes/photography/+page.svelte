@@ -42,7 +42,7 @@
 <main
   class="bg-cover bg-center content-center"
   style="background-image: url({isPortrait
-    ? '/images/stl/image-05.avif'
+    ? '/images/image-01.avif'
     : '/images/test.avif'});"
 >
   <nav
