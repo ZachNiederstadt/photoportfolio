@@ -57,7 +57,7 @@
         >
           Check out my work
         </p>
-        <div class="pt-20" out:slide>
+        <div class="pt-10 md:pt-20 md:mt-20" out:slide>
           <a
             class="btn mt-5 px-5 py-3 text-white font-orbitron text-sm tracking-widest font-semibold rounded-full bg-blue-950 hover:bg-blue-400 transition duration-300 ease-in-out"
             href="photography"
@@ -86,6 +86,16 @@
             Contact Me
           </a>
         </div>
+        <!-- <div class="pt-8" out:slide>
+          <a
+            class="btn mt-5 px-6 py-3 text-white font-orbitron text-sm tracking-widest font-semibold rounded-full bg-blue-950 hover:bg-blue-400 transition duration-300 ease-in-out"
+            style="color: white"
+            href="https://znieder.myshopify.com/"
+            target="_blank"
+          >
+            Buy Posters
+          </a>
+        </div> -->
       </div>
     </div>
   </div>
