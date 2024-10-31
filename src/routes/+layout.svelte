@@ -1,7 +1,9 @@
 <script>
-  import { inject } from "@vercel/analytics";
+  import { Inject } from "@vercel/analytics";
 </script>
 
-<div inject>
-  <slot></slot>
+<div>
+  <Inject>
+    <slot></slot>
+  </Inject>
 </div>
