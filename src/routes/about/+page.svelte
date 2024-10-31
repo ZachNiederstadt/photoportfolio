@@ -63,12 +63,13 @@
 				<p class="text-gray-200 text-lg leading-relaxed mb-4"></p>
 				<p class="text-stone-200 text-sm leading-loose mb-4 tracking-wide">
 					I'm someone who's loved photogrphy my whole life, and has recently
-					started to learn how to use a digital camera and mess with capture
-					settings manually as well as how to edit and color grade using Adobe
-					Lightroom. I also really enjoy the challenge of capturing motorsports
-					at high speeds, and the challenge of trying to make a great background
-					that's not overpowering the subject, and creating a great subject that
-					doesn't sit too seperately from the background.
+					started to learn how to use a digital camera. With that, I've been
+					having fun learning how to use manual settings as well as fine tuning
+					my editing and color grading skills using Adobe Lightroom. I also
+					really enjoy the challenge of capturing motorsports at high speeds,
+					and the challenge of trying to make a great background that's
+					satisfying but not overpowering the subject, and creating a great
+					subject that doesn't sit too seperately from the background.
 				</p>
 				<p class="text-stone-200 text-sm leading-loose mb-4 tracking-wide">
 					---
@@ -77,31 +78,36 @@
 					class="text-stone-100 text-sm leading-loose mb-4 font-semibold tracking-wide"
 				>
 					I also hope to use photography and Psychology together to help remind
-					people that you can find interesting perspectives in the most mundane
-					areas. As being a Psychology graduate, I hope to find as many aspects
-					of life I can to help ground people into healthier mindsets and
-					persepectives of life. And I think in a chaotic world of hyper
-					stimulations, the importance of photography to be something where you
-					slow down, and think about about a single moment in time for a bit is
-					extremely healthy. Not to mention, if you can take mundane places in
-					the world, and guide your creativity to find the beauty in the dull,
-					or the calm in the chaos, it can help prepare you to take on those
-					challenges in the mental health of your life too.
+					people that you can find interesting perspectives that make life feel
+					more exciting and stunning. As being a Psychology graduate, I hope to
+					find as many aspects of life I can to help ground people into
+					healthier mindsets and persepectives of life. And I think in a chaotic
+					world of hyper stimulations, the importance of photography to be
+					something where you slow down, and think about about a single moment
+					in time in a single spot for a bit is extremely healthy. Not to
+					mention, if you can guide your creativity to find the calm in the
+					chaos, or the beauty in the dull, it can help prepare you to take on
+					those challenges in the mental health of your life too.
 				</p>
 				<p class="text-stone-200 text-sm leading-loose mb-4 tracking-wide">
 					---
 				</p>
 				<p class="text-stone-200 text-sm leading-loose mb-4 tracking-wide">
-					Besides photography and Psychology, I'm also a huge sports fan in
-					general. Especially when you're talking about actually getting out
-					there and playing, I'll play almost any sport if you ask. I also
-					played a year of college baseball and was a part of a Porsche Esports
-					challenge event with Gran Turismo 7 (from the picture above with the
-					creator). As along with sports, I definitely love video games too. I
+					Besides photography and Psychology, I'm also a huge sports fan.
+					Especially when you're talking about actually getting out there and
+					playing, I'll play almost any sport if you ask. And that's one thing
+					photography helps with as I enjoy watching sports, but the camera
+					keeps my mind distracted from being bummed that I'm not participating.
+					And with my experience, it's usually hard to keep me distracted as I
+					played a year of college baseball and have participated in a Porsche
+					Esports challenge event with Gran Turismo 7 (from the picture above
+					with the creator), just to show my competitive nature. With the
+					mention of Gran Turismo as well, I definitely love video games too. I
 					really enjoy how they both constantly force me to push myself to learn
 					and improve more, while also being a healthy space for my competitive
 					side. Lastly, I love nature and expoloring this world we call home as
-					well.
+					well. I haven't been able to as much in the last few years, but I used
+					to find nature as one of the most healing places to be.
 				</p>
 				<p
 					class="flex justify-center text-[10px] text-white leading-relaxed pb- pt-2 tracking-widest"
