@@ -15,6 +15,8 @@
                 "/images/baa/image-6.avif",
                 "/images/baa/image-7.avif",
                 "/images/baa/image-8.avif",
+                "/images/baa/image-10.avif",
+                "/images/baa/image-9.avif",
             ],
         },
     ];
