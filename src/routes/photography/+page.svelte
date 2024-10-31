@@ -1,7 +1,6 @@
 <script>
   import "$lib/global.css";
   import { fade, slide } from "svelte/transition";
-  import { inject } from "@vercel/analytics";
 
   const year = new Date().getFullYear();
   // Create a reactive statement to handle screen orientation
@@ -65,14 +64,14 @@
     >
       <div class="container mx-auto text-center pt-12 mt-12 lg:mt-3">
         <h1
-          class="text-3xl font-bold font-orbitron text-white tracking-wider"
+          class="text-2xl font-bold font-orbitron text-white tracking-wider"
           in:slide
           out:fade
         >
           Zach Niederstadt
         </h1>
         <p
-          class="text-md font-semibold text-white mt-4 tracking-widest"
+          class="text-sm font-semibold text-white mt-4 tracking-widest"
           style="color: white"
           out:fade
         >
