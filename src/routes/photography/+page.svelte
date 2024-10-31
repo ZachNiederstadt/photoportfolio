@@ -62,7 +62,7 @@
     <div
       class="bg-cover bg-center min-h-screen flex flex-col justify-top justify-between pt-[2%] items-center"
     >
-      <div class="container mx-auto text-center pt-12 mt-12 lg:mt-3">
+      <div class="container mx-auto text-center pt-7 mt-7 lg:mt-3">
         <h1
           class="text-2xl font-bold font-orbitron text-white tracking-wider"
           in:slide
