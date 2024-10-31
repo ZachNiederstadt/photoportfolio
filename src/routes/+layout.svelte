@@ -2,6 +2,6 @@
   import { inject } from "@vercel/analytics";
 </script>
 
-<div>
+<div inject>
   <slot></slot>
 </div>
