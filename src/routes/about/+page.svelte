@@ -105,9 +105,11 @@
 					mention of Gran Turismo as well, I definitely love video games too. I
 					really enjoy how they both constantly force me to push myself to learn
 					and improve more, while also being a healthy space for my competitive
-					side. Lastly, I love nature and expoloring this world we call home as
-					well. I haven't been able to as much in the last few years, but I used
-					to find nature as one of the most healing places to be.
+					side. And that's not even mentioning the biggest thing, that they're
+					amazing for spending time with friends and staying connected. Lastly,
+					I love nature and expoloring this world we call home as well. I
+					haven't been able to as much in the last few years, but I used to find
+					nature as one of the most healing places to be.
 				</p>
 				<p
 					class="flex justify-center text-[10px] text-white leading-relaxed pb- pt-2 tracking-widest"
