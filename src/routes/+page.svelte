@@ -1,6 +1,7 @@
 <script>
   import "$lib/global.css";
   import { fade, slide } from "svelte/transition";
+  import { inject } from "@vercel/analytics";
 
   // Create a reactive statement to handle screen orientation
   let isPortrait = false;
