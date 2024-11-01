@@ -63,11 +63,10 @@
 				<p class="text-gray-200 text-lg leading-relaxed mb-4"></p>
 				<p class="text-stone-200 text-sm leading-loose mb-4 tracking-wide">
 					I'm someone who's loved photogrphy my whole life, and has recently
-					started to learn how to use a digital camera. With that, I've been
-					having fun learning how to use manual settings as well as fine tuning
-					my editing and color grading skills using Adobe Lightroom. I also
-					really enjoy the challenge of capturing motorsports at high speeds,
-					and the challenge of trying to make a great background that's
+					started to learn how to use a camera with manual settings as well as
+					fine tuning my editing and color grading skills using Adobe Lightroom.
+					I also really enjoy the challenge of capturing motorsports at high
+					speeds, and the challenge of trying to make a great background that's
 					satisfying but not overpowering the subject, and creating a great
 					subject that doesn't sit too seperately from the background.
 				</p>
@@ -77,17 +76,18 @@
 				<p
 					class="text-stone-100 text-sm leading-loose mb-4 font-semibold tracking-wide"
 				>
-					I also hope to use photography and Psychology together to help remind
-					people that you can find interesting perspectives that make life feel
-					more exciting and stunning. As being a Psychology graduate, I hope to
-					find as many aspects of life I can to help ground people into
-					healthier mindsets and persepectives of life. And I think in a chaotic
-					world of hyper stimulations, the importance of photography to be
-					something where you slow down, and think about about a single moment
-					in time in a single spot for a bit is extremely healthy. Not to
-					mention, if you can guide your creativity to find the calm in the
-					chaos, or the beauty in the dull, it can help prepare you to take on
-					those challenges in the mental health of your life too.
+					Along with developing my skills, I hope to use photography and
+					Psychology together to help remind people that you can find
+					interesting perspectives that make life feel more exciting and
+					stunning. As being a Psychology graduate, I hope to find as many
+					aspects of life that I can to help ground people into healthier
+					mindsets and persepectives of life. And I think in a chaotic world of
+					hyper stimulations, the impact of photography to be something where
+					you slow down, and think about about a single moment in time in a
+					single spot for a bit is extremely healthy. Not to mention, if you can
+					guide your creativity to find the calm in the chaos, or the beauty in
+					the dull, it can help prepare you to take on those challenges in the
+					mental health of your life too.
 				</p>
 				<p class="text-stone-200 text-sm leading-loose mb-4 tracking-wide">
 					---
@@ -105,11 +105,12 @@
 					mention of Gran Turismo as well, I definitely love video games too. I
 					really enjoy how they both constantly force me to push myself to learn
 					and improve more, while also being a healthy space for my competitive
-					side. And that's not even mentioning the biggest thing, that they're
-					amazing for spending time with friends and staying connected. Lastly,
-					I love nature and expoloring this world we call home as well. I
-					haven't been able to as much in the last few years, but I used to find
-					nature as one of the most healing places to be.
+					side. And the biggest thing is that they're amazing for spending time
+					with friends and staying connected. To quickly wrap things up, I love
+					nature and expoloring this world we call home as well. I haven't been
+					able to as much in the last few years though, but I used to find
+					nature as one of the most healing places to be. I also used to love
+					using nature as a photography playground with my phone at times.
 				</p>
 				<p
 					class="flex justify-center text-[10px] text-white leading-relaxed pb- pt-2 tracking-widest"
