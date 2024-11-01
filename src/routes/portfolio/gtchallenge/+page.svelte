@@ -43,13 +43,12 @@
             imgElement = document.createElement("img");
             imgElement.src = imageUrl;
             imgElement.style.position = "fixed";
-            imgElement.style.top = "0";
-            imgElement.style.left = "0";
+            imgElement.style.top = "auto";
+            imgElement.style.left = "auto";
             imgElement.style.width = "100%";
             imgElement.style.height = "100%";
             imgElement.style.zIndex = "9999";
             imgElement.style.cursor = "zoom-out";
-            imgElement.addEventListener("click", exitFullScreen);
 
             document.body.appendChild(imgElement);
 
