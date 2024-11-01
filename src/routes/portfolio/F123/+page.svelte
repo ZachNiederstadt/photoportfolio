@@ -25,6 +25,7 @@
     let backgroundImage = "";
     let fullscreen = false;
     let imgElement;
+    let fullscreenContainer;
 
     onMount(() => {
         const randomIndex = Math.floor(
@@ -36,35 +37,49 @@
         document.body.style.backgroundSize = "cover";
         document.body.style.backgroundRepeat = "no-repeat";
     });
+
     const year = new Date().getFullYear();
     function toggleFullScreen(imageUrl) {
         if (!fullscreen) {
+            // Create a container for the fullscreen image
+            fullscreenContainer = document.createElement("div");
+            fullscreenContainer.style.position = "fixed";
+            fullscreenContainer.style.top = "0";
+            fullscreenContainer.style.left = "0";
+            fullscreenContainer.style.width = "100%";
+            fullscreenContainer.style.height = "100%";
+            fullscreenContainer.style.backgroundColor = "rgba(0,0,0,0.9)";
+            fullscreenContainer.style.display = "flex";
+            fullscreenContainer.style.justifyContent = "center";
+            fullscreenContainer.style.alignItems = "center";
+            fullscreenContainer.style.zIndex = "9999";
+
+            // Create the image element
             imgElement = document.createElement("img");
             imgElement.src = imageUrl;
-            imgElement.style.position = "fixed";
-            imgElement.style.top = "0";
-            imgElement.style.left = "0";
-            imgElement.style.width = "100%";
-            imgElement.style.height = "100%";
-            imgElement.style.zIndex = "9999";
+            imgElement.style.maxWidth = "100%";
+            imgElement.style.maxHeight = "100%";
+            imgElement.style.objectFit = "contain";
             imgElement.style.cursor = "zoom-out";
-            imgElement.addEventListener("click", exitFullScreen);
 
-            document.body.appendChild(imgElement);
+            // Add click event to exit fullscreen
+            fullscreenContainer.addEventListener("click", exitFullScreen);
 
-            if (imgElement.requestFullscreen) {
-                imgElement.requestFullscreen();
-            } else if (imgElement.webkitRequestFullscreen) {
-                imgElement.webkitRequestFullscreen();
-            } else if (imgElement.msRequestFullscreen) {
-                imgElement.msRequestFullscreen();
-            }
+            // Append image to container and container to body
+            fullscreenContainer.appendChild(imgElement);
+            document.body.appendChild(fullscreenContainer);
+
+            fullscreen = true;
+        } else {
+            exitFullScreen();
         }
     }
 
-    async function exitFullScreen() {
-        imgElement.parentNode.removeChild(imgElement);
-        fullscreen = false;
+    function exitFullScreen() {
+        if (fullscreenContainer && fullscreenContainer.parentNode) {
+            fullscreenContainer.parentNode.removeChild(fullscreenContainer);
+            fullscreen = false;
+        }
     }
 </script>
 
